@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 3 Circular Buffer
-permalink: /tdd/exercises/03_circular
 ---
 
 In previous exercise 1 and 2, you write only 1 method to solve one single problem with obvious acceptance test cases. In this exercise, you will practice gathering requirements, writing acceptance test cases, and do a bit upfront design. You will also need to write several methods to make all the functionality work.
@@ -19,4 +18,4 @@ Implement your class. Pick a method to start. Remember that you are doing TDD so
 
 Observe which method did you pick first and how do you pick the next one. Find out what is the best way to do.
 
-If possible, try to do this exercise with your friend(s). Every five minutes, change to another machine and continue coding from your friend(s). This is the best way to determine how good readability your code is :)
+If possible, try to do this exercise with your friend(s). Every five minutes, change to another machine and continue coding from your friend(s). This is the best way to determine how good readability your code is :) 

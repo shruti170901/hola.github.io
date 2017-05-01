@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 1 FizzBuzz
-permalink: /tdd/exercises/01_fizzbuzz_1
 ---
 
 This can be your first exercise to practice TDD. It is a good exercise for you to start and give you the real feeling of TDD. Don't feel bad if you couldn't do it well as this happens to everyone who start practicing TDD for the 1st time including myself :)
@@ -36,4 +35,4 @@ Please try implement this function in TDD way. Do not look for the solution on t
 
 Once done, check: Does your test code has good readability? Do you need to move around your code or your mouse in order to read your code?
 
-[Click here for Exercise 1.2](/tdd/exercises/01_fizzbuzz_2)
+[Click here for Exercise 1.2](/tdd/ex01_fizzbuzz_2.html)

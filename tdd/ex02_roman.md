@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 2 Roman Numbers
-permalink: /tdd/exercises/02_roman
 ---
 
 In this exercise, the implementation of the logic is not so obvious like in the exercise 1. Please use TDD approach to write your code and tests that are easy to understand, change, and maintain. You will also apply data-driven testing technique in this exercise.
@@ -18,4 +17,4 @@ Please implement this method using TDD approach.
 
 You may notice that you have a lot of test scenarios and test cases. Try to implement your tests using data-driven testing technique (i.e. Parameterized in Java or eCATT in ABAP).
 
-[Click here to find solution](/tdd/exercises/02_roman_ans)
+[Click here to find solution](/tdd/ex02_roman_ans.html)

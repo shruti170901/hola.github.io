@@ -1,7 +1,6 @@
 ---
 layout: page
 title: TDD Knowledge
-permalink: /tdd/knowledge/
 ---
 
 ![TDD Knowledge Map](/img/tdd_knowledge.jpg)

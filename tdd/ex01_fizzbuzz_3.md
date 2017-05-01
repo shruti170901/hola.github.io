@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 1 FizzBuzz
-permalink: /tdd/exercises/01_fizzbuzz_3
 ---
 
 # Exercise 1.3
@@ -15,4 +14,4 @@ What if we want to change some wordings:
 
 Does your code has good maintainability? Can you change these words without touching existing codes?
 
-[Click here to find solution](/tdd/exercises/01_fizzbuzz_ans)
+[Click here to find solution](/tdd/ex01_fizzbuzz_ans.html)

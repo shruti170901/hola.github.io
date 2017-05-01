@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 1 FizzBuzz
-permalink: /tdd/exercises/01_fizzbuzz_2
 ---
 
 # Exercise 1.2
@@ -22,4 +21,4 @@ Here are some sample inputs/outputs:
 
 Does your code has good maintainability? Can you add these logics without touching existing codes?
 
-[Click here for Exercise 1.3](/tdd/exercises/01_fizzbuzz_3)
+[Click here for Exercise 1.3](/tdd/ex01_fizzbuzz_3.html)

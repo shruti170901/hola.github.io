@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Exercise 1 FizzBuzz
-permalink: /tdd/exercises/01_fizzbuzz_ans
 ---
 
 # Solution

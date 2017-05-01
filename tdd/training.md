@@ -1,7 +1,6 @@
 ---
 layout: page
 title: TDD Training
-permalink: /tdd/training/
 ---
 
 # SAP

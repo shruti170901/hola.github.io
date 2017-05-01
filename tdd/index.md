@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Test-Driven Development
-permalink: /tdd/
 ---
 
 # Contents
@@ -10,10 +9,10 @@ permalink: /tdd/
 - [Documents](#documents)
 - [Books](#books)
 - [Videos](#videos)
-- [Knowledge](/tdd/knowledge/)
-- [Training](/tdd/training/)
-- [Exercises](/tdd/exercises/)
-- [Links](/tdd/links/)
+- [Knowledge](/tdd/knowledge.html)
+- [Training](/tdd/training.html)
+- [Exercises](/tdd/exercises.html)
+- [Links](/tdd/links.html)
 
 # Concept
 

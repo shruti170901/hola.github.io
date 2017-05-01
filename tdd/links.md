@@ -1,7 +1,6 @@
 ---
 layout: page
 title: TDD Links
-permalink: /tdd/links/
 ---
 
 # TDD in SAP ABAP

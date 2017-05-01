@@ -105,6 +105,7 @@
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    color: #424242;
 }
 
 .contact-list,
@@ -132,26 +133,14 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
+.footer-col-3 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
 @include media-query($on-palm) {
@@ -159,6 +148,7 @@
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+        text-align: left;
     }
 }
 
@@ -215,7 +205,16 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    
+    h1 {
+        font-size: 36px;
+        border-bottom: 1px solid #e5e5e5;
 
+        @include media-query($on-laptop) {
+            font-size: 32px;
+        }
+    }
+    
     h2 {
         font-size: 32px;
 

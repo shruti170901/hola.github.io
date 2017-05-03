@@ -63,24 +63,6 @@ BDD ([behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven
 
 _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_BDD)_
 
-# Documents
-
-## SAP
-
-- [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx)
-- [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx)
-- [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf)
-- [ABAP Code Refacotring Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/abap_code_refactoring_techniques.pdf)
-
-## TOSCA
-
-- [What's New in Tosca 9.3](https://s3-ap-southeast-1.amazonaws.com/pacroy/What%E2%80%99s+New+in+Tosca+9.3.pdf)
-- [Conquer SAP Testing with Tosca Test Suites](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Tricentis+Tosca+-testing.pdf)
-
-## Others
-
-- [Key Test Design Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/Key+Test+Design+Techniques.pdf)
-
 # Books
 
 ## Recommended
@@ -106,7 +88,27 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 - [Suggested Reading for Professional Scrum Developer](https://www.scrum.org/resources/suggested-reading-professional-scrum-developer)
 
-# Videos
+# Links
+
+## SAP
+
+- [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx)
+- [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx)
+- [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf)
+- [ABAP Code Refacotring Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/abap_code_refactoring_techniques.pdf)
+
+## TOSCA
+
+- [What's New in Tosca 9.3](https://s3-ap-southeast-1.amazonaws.com/pacroy/What%E2%80%99s+New+in+Tosca+9.3.pdf)
+- [Conquer SAP Testing with Tosca Test Suites](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Tricentis+Tosca+-testing.pdf)
+- [Automated Testing in SAP](https://vimeo.com/159330942) (Video)
+- [Tosca-SAP Solution Manager Integration](https://support.tricentis.com/community/manuals_detail.do?lang=en&version=10.0.0&url=sap_solutionmanager/concept.htm)
+
+## Others
+
+- [Key Test Design Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/Key+Test+Design+Techniques.pdf)
+
+## Videos
 
 - [Gary Bernhardt. _Fast Test, Slow Test_.](https://youtu.be/RAxiiRPHS9k)
 - [Jon Reid. _MCE 2014: Jon Reid - Test Driven Development for iOS (and anything)_.](MCE 2014: Jon Reid - Test Driven Development for iOS (and anything))

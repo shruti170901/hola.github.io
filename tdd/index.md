@@ -20,7 +20,7 @@ Test-Driven Development (TDD) is a technique for building software that guides s
 
 ## The Three Steps of TDD
 
-![Three Steps of TDD](/img/three_stepp_of_tdd.png)  
+![Three Steps of TDD](img/three_stepp_of_tdd.png)  
 
 1. __RED__: Write a test for the next bit of functionality you want to add.
 2. __GREEN__: Write the functional code until the test passes.
@@ -44,7 +44,7 @@ _Source: [butunclebob.com](http://butunclebob.com/ArticleS.UncleBob.TheThreeRule
 
 ## TDD and ATDD
 
-![TDD and ATDD](/img/atdd_and_tdd.png)
+![TDD and ATDD](img/atdd_and_tdd.png)
 
 Test-driven development is related to, but different from [acceptance test–driven development](https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development) (ATDD).
 
@@ -56,7 +56,7 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 ## TDD and BDD
 
-![Given When Then](/img/given_when_then.jpg)  
+![Given When Then](img/given_when_then.jpg)  
 _Source: [Abhay Kumar - LinkedIn](https://www.linkedin.com/pulse/behavior-driven-development-tools-java-developers-abhay-kumar)_
 
 BDD ([behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development)) **combines practices from TDD and from ATDD. It includes the practice of writing tests first, but focuses on tests which describe behavior**, rather than tests which test a unit of implementation. Tools such as Mspec and Specflow provide a syntax which allow non-programmers to define the behaviors which developers can then translate into automated tests.
@@ -67,22 +67,38 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 ## Recommended
 
-- [Kent Beck. _Test-Driven Development by Example_.](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) - Java
-- [Roy Osherove. _The Art of Unit Testing_.](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/) - C#
-- [Robert C. Martin. _Clean Code: A Handbook of Agile Software Craftsmanship_.](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- [Michael Feathers. _Working Effectively with Legacy Code_.](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) - Java, C++, C#
-- [Eric Freeman et all. _Head First Design Patterns: A Brain-Friendly Guide_.](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) - Java
-- [Andrew Hunt et all. _The Pragmatic Programmer: From Journeyman to Master_.](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/)
-- [James Wood et all. _ABAP Unit: Writing and Executing Unit Tests_.](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) - ABAP
-- [Paul Hardy. _ABAP to the Future_.](https://www.sap-press.com/abap-to-the-future_4161/) - ABAP
+<table style="text-align:center;">
+    <tr>
+        <td>![](img/tdd_by_example.jpg)<br />[Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)<br />_Java_</td>
+        <td>![](img/art_of_unit_testing.jpg)<br />[The Art of Unit Testing](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/)<br />_C#_</td>
+        <td>![](img/clean_code.jpg)<br />[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)</td>
+    </tr>
+    <tr>
+        <td>![](img/working_effectively_with_legacy_code.jpg)<br />[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/)<br />_Java, C++, C#_</td>
+        <td>![](img/head_first_design_patterns.jpg)<br />[Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)<br />_Java_</td>
+        <td>![](img/pragmatic_programmer.jpg)<br />[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/)</td>
+    </tr>
+    <tr>
+        <td>![](img/abap_unit.jpg)<br />[ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/)<br />_ABAP_</td>
+        <td>![](img/abap_to_the_future.jpg)<br />[ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/)<br />_ABAP_</td>
+        <td>![](img/design_patterns_in_abap_objects.jpg)<br />[Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/)<br />_ABAP_</td>
+    </tr>
+</table>
 
 ## Worth to Note
 
-- [Joshua Kerievsky. _Refactoring to Patterns_.](https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351)
-- [Gerard Meszaros. _xUnit Test Patterns: Refactoring Test Code_.](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/)
-- [Mark Seemann. _Dependency Injection in .NET_.](https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/)
-- [Mark Ethan Trostler. _Testable JavaScript: Ensuring Reliable Code_.](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391)
-- [Martin Fowler. _Patterns of Enterprise Application Architecture_.](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/)
+<table style="text-align:center;">
+    <tr>
+        <td>![](img/refactoring_to_patterns.jpg)<br />[Refactoring to Patterns](https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351)</td>
+        <td>![](img/xunit_test_patterns.jpg)<br />[xUnit Test Patterns: Refactoring Test Code](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/)</td>
+        <td>![](img/dependency_injection_dotnet.jpg)<br />[Dependency Injection in .NET](https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/)</td>
+    </tr>
+    <tr>
+        <td>![](img/testable_javascript.jpg)<br />[Testable JavaScript: Ensuring Reliable Code](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391)</td>
+        <td>![](img/pattern_of_enterprise_application_architecture.jpg)<br />[Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/)</td>
+        <td></td>
+    </tr>
+</table>
 
 ## More Books
 
@@ -92,27 +108,26 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 ## SAP
 
-- [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx)
-- [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx)
-- [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf)
-- [ABAP Code Refacotring Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/abap_code_refactoring_techniques.pdf)
+- [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx) by SAP - *June 18, 2016*
+- [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx) by Sarah Lottman, SAP - *Septenber 2016*
+- [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf) by SAP, *July 2012*
+- [ABAP Code Refacotring Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/abap_code_refactoring_techniques.pdf) by Sukru Ilkel Birakoglu, SAP LABS France - *July 6, 2009*
 
 ## TOSCA
 
-- [What's New in Tosca 9.3](https://s3-ap-southeast-1.amazonaws.com/pacroy/What%E2%80%99s+New+in+Tosca+9.3.pdf)
-- [Conquer SAP Testing with Tosca Test Suites](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Tricentis+Tosca+-testing.pdf)
-- [Automated Testing in SAP](https://vimeo.com/159330942) (Video)
-- [Tosca-SAP Solution Manager Integration](https://support.tricentis.com/community/manuals_detail.do?lang=en&version=10.0.0&url=sap_solutionmanager/concept.htm)
+- [What's New in Tosca 9.3](https://s3-ap-southeast-1.amazonaws.com/pacroy/What%E2%80%99s+New+in+Tosca+9.3.pdf) by Dr. Gerd Weishaar, Tricentis - *2016*
+- [Conquer SAP Testing with Tosca Test Suites](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Tricentis+Tosca+-testing.pdf) by Wolfgang Platz, Tricentis - *2015*
+- [Automated Testing in SAP](https://vimeo.com/159330942) (Video) by Tricentis - *2016*
+- [Tosca-SAP Solution Manager Integration](https://support.tricentis.com/community/manuals_detail.do?lang=en&version=10.0.0&url=sap_solutionmanager/concept.htm) (Manual) by Tricentis
 
 ## Others
 
-- [Key Test Design Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/Key+Test+Design+Techniques.pdf)
+- [Key Test Design Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/Key+Test+Design+Techniques.pdf) by Lee Copeland, Software Quality Engineering - *June 5, 2014*
 
 ## Videos
-
-- [Gary Bernhardt. _Fast Test, Slow Test_.](https://youtu.be/RAxiiRPHS9k)
-- [Jon Reid. _MCE 2014: Jon Reid - Test Driven Development for iOS (and anything)_.](MCE 2014: Jon Reid - Test Driven Development for iOS (and anything))
+- [Fast Test, Slow Test](https://youtu.be/RAxiiRPHS9k) by Gary Bernhardt - *March 11, 2012*
+- [MCE 2014: Jon Reid - Test Driven Development for iOS (and anything)](https://youtu.be/Jzlz3Bx-NzM) by Jon Reid - *February 14, 2014*
   - [Presentation Material](http://qualitycoding.org/files/ControllingDependencies.pdf)
-- [Mattias Johanson. _The BEST way to do mocking - FunFunFunction #8_.](https://github.com/mpj/workroom-lights-killer)
+- [The BEST way to do mocking - FunFunFunction #8](https://youtu.be/fgqh-OZjpYY) by Mattias Johanson - *November 19, 2015*
   - [Gary Bernhardt's talk 'Boundaries'](https://www.destroyallsoftware.com/talks/boundaries)
   - [Codes in the video](https://github.com/mpj/workroom-lights-killer)

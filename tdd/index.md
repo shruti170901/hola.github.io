@@ -69,19 +69,19 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 <table style="text-align:center;">
     <tr>
-        <td>![](img/tdd_by_example.jpg)<br />[Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)<br />_Java_</td>
-        <td>![](img/art_of_unit_testing.jpg)<br />[The Art of Unit Testing](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/)<br />_C#_</td>
-        <td>![](img/clean_code.jpg)<br />[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)</td>
+        <td><img src="img/tdd_by_example.jpg" /><br /><a href="https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530">Test-Driven Development by Example</a><br /><em>Java</em></td>
+        <td><img src="img/art_of_unit_testing.jpg" /><br /><a href="https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/">The Art of Unit Testing</a><br /><em>C#</em></td>
+        <td><img src="img/clean_code.jpg" /><br /><a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882">Clean Code: A Handbook of Agile Software Craftsmanship</a></td>
     </tr>
     <tr>
-        <td>![](img/working_effectively_with_legacy_code.jpg)<br />[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/)<br />_Java, C++, C#_</td>
-        <td>![](img/head_first_design_patterns.jpg)<br />[Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)<br />_Java_</td>
-        <td>![](img/pragmatic_programmer.jpg)<br />[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/)</td>
+        <td><img src="img/working_effectively_with_legacy_code.jpg" /><br /><a href="https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/">Working Effectively with Legacy Code</a><br /><em>Java, C++, C#</em></td>
+        <td><img src="img/head_first_design_patterns.jpg" /><br /><a href="https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124">Head First Design Patterns: A Brain-Friendly Guide</a><br /><em>Java</em></td>
+        <td><img src="img/pragmatic_programmer.jpg" /><br /><a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/">The Pragmatic Programmer: From Journeyman to Master</a></td>
     </tr>
     <tr>
-        <td>![](img/abap_unit.jpg)<br />[ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/)<br />_ABAP_</td>
-        <td>![](img/abap_to_the_future.jpg)<br />[ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/)<br />_ABAP_</td>
-        <td>![](img/design_patterns_in_abap_objects.jpg)<br />[Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/)<br />_ABAP_</td>
+        <td><img src="img/abap_unit.jpg" /><br /><a href="https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/">ABAP Unit: Writing and Executing Unit Tests</a><br /><em>ABAP</em></td>
+        <td><img src="img/abap_to_the_future.jpg" /><br /><a href="https://www.sap-press.com/abap-to-the-future_4161/">ABAP to the Future</a><br /><em>ABAP</em></td>
+        <td><img src="img/design_patterns_in_abap_objects.jpg" /><br /><a href="https://www.sap-press.com/design-patterns-in-abap-objects_4277/">Design Patterns in ABAP Objects</a><br /><em>ABAP</em></td>
     </tr>
 </table>
 
@@ -89,13 +89,13 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 
 <table style="text-align:center;">
     <tr>
-        <td>![](img/refactoring_to_patterns.jpg)<br />[Refactoring to Patterns](https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351)</td>
-        <td>![](img/xunit_test_patterns.jpg)<br />[xUnit Test Patterns: Refactoring Test Code](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/)</td>
-        <td>![](img/dependency_injection_dotnet.jpg)<br />[Dependency Injection in .NET](https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/)</td>
+        <td><img src="img/refactoring_to_patterns.jpg" /><br /><a href="https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351">Refactoring to Patterns</a></td>
+        <td><img src="img/xunit_test_patterns.jpg" /><br /><a href="https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/">xUnit Test Patterns: Refactoring Test Code</a></td>
+        <td><img src="img/dependency_injection_dotnet.jpg" /><br /><a href="https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/">Dependency Injection in .NET</a></td>
     </tr>
     <tr>
-        <td>![](img/testable_javascript.jpg)<br />[Testable JavaScript: Ensuring Reliable Code](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391)</td>
-        <td>![](img/pattern_of_enterprise_application_architecture.jpg)<br />[Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/)</td>
+        <td><img src="img/testable_javascript.jpg" /><br /><a href="https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391">Testable JavaScript: Ensuring Reliable Code</a></td>
+        <td><img src="img/pattern_of_enterprise_application_architecture.jpg" /><br /><a href="https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/">Patterns of Enterprise Application Architecture</a></td>
         <td></td>
     </tr>
 </table>

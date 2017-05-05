@@ -20,7 +20,7 @@ Test-Driven Development (TDD) is a technique for building software that guides s
 
 ## The Three Steps of TDD
 
-![Three Steps of TDD](img/three_stepp_of_tdd.png)  
+![Three Steps of TDD](img/three_step_of_tdd.png)  
 
 1. __RED__: Write a test for the next bit of functionality you want to add.
 2. __GREEN__: Write the functional code until the test passes.

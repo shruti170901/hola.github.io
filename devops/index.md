@@ -1,6 +1,9 @@
-# DevOps
+---
+layout: page
+title: DevOps
+---
 
-## Articles and Whitepapers
+# Articles and Whitepapers
 
 - [A single CI instance for all teams](https://www.thoughtworks.com/radar/techniques/a-single-ci-instance-for-all-teams) by ThoughtWorks.
 - [The Top 11 Things You Need to Know about DevOps](http://images.itrevolution.com/documents/Top_11_DevOps_01_2015.pdf) by Gene Kim
@@ -15,26 +18,26 @@
 - [DevOps – It’s all about continuous testing !](https://devops.com/devops-continuous-testing/) by Marc Hornbeek
 - [Testing in a DevOps World](https://www.sogeti.nl/sites/default/files/Testing%20in%20a%20DevOps%20World-Wolfgang%20Platz-Tricentis%20-QAD16.pdf) by Wolfgang Platz
 
-## Case Studies
+# Case Studies
 
 - [Disney's DevOps Journey: A DevOps Enterprise Summit Reprise](https://puppet.com/blog/disney-s-devops-journey-a-devops-enterprise-summit-reprise) by Aliza Earnshaw
 - [DevOps Case Study: Amazon AWS](https://insights.sei.cmu.edu/devops/2015/02/devops-case-study-amazon-aws.html) by C. Aaron Cois
 - [10 companies killing it at DevOps](https://techbeacon.com/10-companies-killing-it-devops) by TechBeacon
 
-## Useful Links
+# Useful Links
 
 - [Periodic Table of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools/) by XebiaLabs
 - [List of Lean Games and Simulations](http://www.leansimulations.org/p/huge-list-of-free-lean-games.html)
 - [The Tennis Ball Exercise](http://leaninsider.productivitypress.com/2008/12/tennis-ball-exercise.html) by Michael Sinocchi and Ralph Bernstein
 
-## Videos
+# Videos
 
 - [Cloud Native Java - Josh Long](https://www.youtube.com/watch?v=5q8B6lYhFvE) - [Slides](http://www.slideshare.net/SpringCentral/cloud-native-java)
 - [Webinar: The impact of DevOps on SAP systems, and how to make it a success](http://www.basistechnologies.com/webinar-the-impact-of-DevOps-on-SAP-systems) by James Roberts
   - Rev-Trac: http://www.xrsc.com/rev-trac/
   - Virtual Forge: https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html
 
-## Books
+# Books
 
 <table>
     <tr>
@@ -47,7 +50,7 @@
     </tr>
 </table>
 
-## Gene Kim's Email
+# Gene Kim's Email
 
 Here is what you will get if you send an email to [genek@realgenekim.me](mailto:genek@realgenekim.me?subject=devops) (As of Feb 13, 2017)
 

@@ -35,12 +35,19 @@
   - Virtual Forge: https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html
 
 ## Books
- | Book Name |
---- | --- |
-![](http://akamaicovers.oreilly.com/images/9780988262508/cat.gif) | [The Phoenix Project](http://shop.oreilly.com/product/9780988262508.do) :+1: <br /> Gene Kim, Kevin Behr, George Spafford 
-![](http://akamaicovers.oreilly.com/images/9781942788003/cat.gif) | [The DevOps Handbook](http://shop.oreilly.com/product/9781942788003.do) :+1: <br /> Gene Kim, Jez Humble, Patrick Debois, John Willis <br /><br />[Read Sample](http://images.itrevolution.com/documents/The_Phoenix_Project_excerpt.pdf)
 
-## Gene Kim Email
+<table>
+    <tr>
+        <td>![](http://akamaicovers.oreilly.com/images/9780988262508/cat.gif)</td>
+        <td>[The Phoenix Project](http://shop.oreilly.com/product/9780988262508.do)<br /> Gene Kim, Kevin Behr, George Spafford</td>
+    </tr>
+    <tr>
+        <td>![](http://akamaicovers.oreilly.com/images/9781942788003/cat.gif)</td>
+        <td>[The DevOps Handbook](http://shop.oreilly.com/product/9781942788003.do)<br /> Gene Kim, Jez Humble, Patrick Debois, John Willis <br /><br />[Read Sample](http://images.itrevolution.com/documents/The_Phoenix_Project_excerpt.pdf)</td>
+    </tr>
+</table>
+
+## Gene Kim's Email
 
 Here is what you will get if you send an email to [genek@realgenekim.me](mailto:genek@realgenekim.me?subject=devops) (As of Feb 13, 2017)
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SAP ABAP
-permalink: /abap/
+description: Here you can find information and resources about SAP ABAP.
 ---
 
 # Programming Language

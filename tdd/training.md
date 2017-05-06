@@ -1,13 +1,14 @@
 ---
 layout: page
 title: TDD Training
+description: Here you can find training courses provided by third party companies.
 ---
 
 # SAP
 
 ## SAP Agile Software Engineering
 
-![SAP AgileSE Course Structure](/img/sap_agilese_course.png)
+![SAP AgileSE Course Structure](img/sap_agilese_course.png)
 
 - [View Brochure](https://s3-ap-southeast-1.amazonaws.com/pacroy/ASE+Training+Information.pdf)
 - [Introduction Video](https://www.youtube.com/watch?v=oxFpedbxgSs)

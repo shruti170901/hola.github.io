@@ -1,9 +1,8 @@
 ---
 layout: page
 title: TDD Exercises
+description: Here you can find some requirements to exercise your TDD skill.
 ---
-
-Here you can find some requirements to exercise your TDD skill.
 
 # Exercise 1 - FizzBuzz
 

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: TDD Links
+title: TDD Useful Links
+description: Here you can find useful links related to Test-Driven Development.
 ---
 
 # TDD in SAP ABAP

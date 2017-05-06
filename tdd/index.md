@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Test-Driven Development
+description: Here you can find information and resources about Test-Driven Development.
 ---
 
 # Contents
@@ -8,11 +9,10 @@ title: Test-Driven Development
 - [Concept](#concept)
 - [Documents](#documents)
 - [Books](#books)
-- [Videos](#videos)
 - [Knowledge](/tdd/knowledge.html)
 - [Training](/tdd/training.html)
 - [Exercises](/tdd/exercises.html)
-- [Links](/tdd/links.html)
+- [Useful Links](/tdd/links.html)
 
 # Concept
 
@@ -63,20 +63,7 @@ BDD ([behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven
 
 _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_BDD)_
 
-# Books
-
-| &nbsp; | &nbsp; | &nbsp; |
-|:---:|:---:|:---:|
-| ![](img/tdd_by_example.jpg)<br />[Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) :+1:<br />_Java_ | ![](img/art_of_unit_testing.jpg)<br />[The Art of Unit Testing](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/) :+1:<br />_C#_ | ![](img/clean_code.jpg)<br />[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) :+1: |
-| ![](img/working_effectively_with_legacy_code.jpg)<br />[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) :+1:<br />_Java, C++, C#_ | ![](img/head_first_design_patterns.jpg)<br />[Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) :+1:<br />_Java_ | ![](img/pragmatic_programmer.jpg)<br />[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/) :+1: |
-|![](img/abap_unit.jpg)<br />[ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) :+1:<br />_ABAP_ | ![](img/abap_to_the_future.jpg)<br />[ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) :+1:<br />_ABAP_ | ![](img/design_patterns_in_abap_objects.jpg)<br />[Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) :+1:<br />_ABAP_ |
-|![](img/refactoring_to_patterns.jpg)<br />[Refactoring to Patterns](https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351) | ![](img/xunit_test_patterns.jpg)<br />[xUnit Test Patterns: Refactoring Test Code](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/) | ![](img/dependency_injection_dotnet.jpg)<br />[Dependency Injection in .NET](https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/) |
-|![](img/testable_javascript.jpg)<br />[Testable JavaScript: Ensuring Reliable Code](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391) |  ![](img/pattern_of_enterprise_application_architecture.jpg)<br />[Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/) |  |
-
-See more books at [Suggested Reading for Professional Scrum Developer](https://www.scrum.org/resources/suggested-reading-professional-scrum-developer)
-
-
-# Links
+# Documents
 
 ## SAP
 
@@ -103,3 +90,15 @@ See more books at [Suggested Reading for Professional Scrum Developer](https://w
 - [The BEST way to do mocking - FunFunFunction #8](https://youtu.be/fgqh-OZjpYY) by Mattias Johanson - *November 19, 2015*
   - [Gary Bernhardt's talk 'Boundaries'](https://www.destroyallsoftware.com/talks/boundaries)
   - [Codes in the video](https://github.com/mpj/workroom-lights-killer)
+
+# Books
+
+| &nbsp; | &nbsp; | &nbsp; |
+|:---:|:---:|:---:|
+| ![](img/tdd_by_example.jpg)<br />[Test-Driven Development by Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) :+1:<br />_Java_ | ![](img/art_of_unit_testing.jpg)<br />[The Art of Unit Testing](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890/) :+1:<br />_C#_ | ![](img/clean_code.jpg)<br />[Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) :+1: |
+| ![](img/working_effectively_with_legacy_code.jpg)<br />[Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/) :+1:<br />_Java, C++, C#_ | ![](img/head_first_design_patterns.jpg)<br />[Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124) :+1:<br />_Java_ | ![](img/pragmatic_programmer.jpg)<br />[The Pragmatic Programmer: From Journeyman to Master](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/) :+1: |
+|![](img/abap_unit.jpg)<br />[ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) :+1:<br />_ABAP_ | ![](img/abap_to_the_future.jpg)<br />[ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) :+1:<br />_ABAP_ | ![](img/design_patterns_in_abap_objects.jpg)<br />[Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) :+1:<br />_ABAP_ |
+|![](img/refactoring_to_patterns.jpg)<br />[Refactoring to Patterns](https://www.amazon.com/Refactoring-Patterns-Joshua-Kerievsky/dp/0321213351) | ![](img/xunit_test_patterns.jpg)<br />[xUnit Test Patterns: Refactoring Test Code](https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/) | ![](img/dependency_injection_dotnet.jpg)<br />[Dependency Injection in .NET](https://www.amazon.com/Dependency-Injection-NET-Mark-Seemann/dp/1935182501/) |
+|![](img/testable_javascript.jpg)<br />[Testable JavaScript: Ensuring Reliable Code](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391) |  ![](img/pattern_of_enterprise_application_architecture.jpg)<br />[Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/) |  |
+
+See more books at [Suggested Reading for Professional Scrum Developer](https://www.scrum.org/resources/suggested-reading-professional-scrum-developer)

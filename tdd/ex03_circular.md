@@ -1,15 +1,14 @@
 ---
 layout: page
 title: Exercise 3 Circular Buffer
+description: In previous exercise 1 and 2, you write only 1 method to solve one single problem with obvious acceptance test cases. In this exercise, you will practice gathering requirements, writing acceptance test cases, and do a bit upfront design. You will also need to write several methods to make all the functionality work.
 ---
-
-In previous exercise 1 and 2, you write only 1 method to solve one single problem with obvious acceptance test cases. In this exercise, you will practice gathering requirements, writing acceptance test cases, and do a bit upfront design. You will also need to write several methods to make all the functionality work.
 
 # Exercise 1.1
 
 You are developing a class with several methods to handle data structure called Circular Buffer. First, try to understand how circular buffer works from Wikipedia. List out attributes and methods that your class should have. Give them proper names and define the input parameters and output parameters for your methods.
 
-![A 24-byte keyboard circular buffer](/img/Circular_Buffer_Animation.gif)  
+![A 24-byte keyboard circular buffer](img/Circular_Buffer_Animation.gif)  
 _A 24-byte keyboard circular buffer._
 
 # Exercise 1.2

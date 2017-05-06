@@ -1,9 +1,10 @@
 ---
 layout: page
 title: TDD Knowledge
+description: Here you can find the list of knowledge that you may require for Test-Driven Development.
 ---
 
-![TDD Knowledge Map](/img/tdd_knowledge.jpg)
+![TDD Knowledge Map](img/tdd_knowledge.jpg)
 
 # Fundamental Knowledge
 

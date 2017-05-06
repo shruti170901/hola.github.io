@@ -9,10 +9,10 @@ description: Here you can find information and resources about Test-Driven Devel
 - [Concept](#concept)
 - [Documents](#documents)
 - [Books](#books)
-- [Knowledge](/tdd/knowledge.html)
-- [Training](/tdd/training.html)
-- [Exercises](/tdd/exercises.html)
-- [Useful Links](/tdd/links.html)
+- [Knowledge](knowledge.html)
+- [Training](training.html)
+- [Exercises](exercises.html)
+- [Useful Links](links.html)
 
 # Concept
 

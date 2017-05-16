@@ -26,6 +26,12 @@ description: Here you can find information and resources about SAP ABAP.
   - [New ABAP Doc Features in NW 7.50](https://blogs.sap.com/2015/10/21/new-abap-doc-features-with-netweaver-75/)
 - [Downloads](https://tools.hana.ondemand.com/)
 
+## Books
+
+| &nbsp; | &nbsp; |
+|:---:|:---:|
+| ![](img/abap_to_the_future.jpg)<br />[ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) | ![](img/design_patterns_in_abap_objects.jpg)<br />[Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) |
+
 # Programming Paradigms
 
 - [Imperative](https://en.wikipedia.org/wiki/Imperative_programming)

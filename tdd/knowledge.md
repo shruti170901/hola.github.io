@@ -42,19 +42,22 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Code_refactoring)_
 
 ## Design Pattern
 
-- [Creational Pattern ](https://en.m.wikipedia.org/wiki/Creational_pattern)
-  - [Factory Method Pattern](https://en.m.wikipedia.org/wiki/Factory_method_pattern)
-  - [Singleton Pattern](https://en.m.wikipedia.org/wiki/Singleton_pattern)
-- [Structural Pattern](https://en.m.wikipedia.org/wiki/Structural_pattern)
-  - [Adapter Pattern](https://en.m.wikipedia.org/wiki/Adapter_pattern)
-  - [Decorator Pattern](https://en.m.wikipedia.org/wiki/Decorator_pattern)
-  - [Facade Pattern](https://en.m.wikipedia.org/wiki/Facade_pattern)
-- [Behavior Pattern](https://en.m.wikipedia.org/wiki/Behavioral_pattern)
-  - [Observer Pattern](https://en.m.wikipedia.org/wiki/Observer_pattern)
-  - [Strategy Pattern](https://en.m.wikipedia.org/wiki/Strategy_pattern)
-- [Concurrency Pattern](https://en.m.wikipedia.org/wiki/Concurrency_pattern)
+Here are most frequenly-used patterns as specified by Kerem Koseoglu in his book [ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/).
 
-_Source: [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)_
+- [Architectural Patterns](https://en.wikipedia.org/wiki/Architectural_pattern)
+  - [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93View%E2%80%93Controller), used all the time
+- [Creational Patterns](https://en.wikipedia.org/wiki/Creational_pattern)
+  - [Factory](https://en.wikipedia.org/wiki/Factory_method_pattern) and [builder](https://en.wikipedia.org/wiki/Builder_pattern) to create new objects in a centralized point
+  - [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) and [multiton](https://en.wikipedia.org/wiki/Multiton_pattern) to prevent creation of multiple instances of the same objectrespectively
+  - [Lazy initialization](https://en.wikipedia.org/wiki/Lazy_initialization) for overall performance improvement
+- [Structural](https://en.wikipedia.org/wiki/Structural_pattern)
+  - [Facade](https://en.wikipedia.org/wiki/Facade_pattern) to make the life of other developers easier
+  - [Decorator](https://en.wikipedia.org/wiki/Decorator_pattern) to modify an object or dataset by multiple classes
+- [Behavioral](https://en.wikipedia.org/wiki/Behavioral_pattern)
+  - [Template method](https://en.wikipedia.org/wiki/Template_method_pattern) to prevent algorithm duplication among similar classes
+  - [Strategy](https://en.wikipedia.org/wiki/Strategy_pattern) to make algorithms interchangeable
+  - [Observer](https://en.wikipedia.org/wiki/Observer_pattern) to make objects communicate without making them interdependent
+  - [Visitor](https://en.wikipedia.org/wiki/Visitor_pattern) to extend the functionality of classes without modifying legacy code
 
 # Essential Knowledge
 

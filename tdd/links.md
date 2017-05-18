@@ -40,7 +40,7 @@ description: Here you can find useful links related to Test-Driven Development.
   - [Continuous Testing](https://www.visualstudio.com/en-us/docs/test/continuous-testing/continuous-testing)
 
 # Gurus
-| | |
+| Name | Links |
 |:---:| --- |
 | ![](img/robert_martin.jpg)<br />[Robert C. Martin (Uncle Bob)](http://twitter.com/unclebobmartin) | [CleanCoder.com](http://blog.cleancoder.com/) |
 | ![](img/martin_fowler.jpg)<br />[Martin Fowler](http://www.martinfowler.com/aboutMe.html) | [MartinFowler.com](http://www.martinfowler.com/) |

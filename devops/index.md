@@ -9,7 +9,7 @@ description: Here you can find information and resources about DevOps.
 - [The Top 11 Things You Need to Know about DevOps](http://images.itrevolution.com/documents/Top_11_DevOps_01_2015.pdf) by Gene Kim
 - [DevOps Guide: Selected Resources to Start Your Journey](https://dl.orangedox.com/devops-guide-v1) by IT Revolution
 - Slides: [DevOps 101](https://www.slideshare.net/up1/devops-101-64995386) by Somkiat Puisungnoen
-- Video: [Introduction to DevOps](https://channel9.msdn.com/Series/DevOps-Fundamentals/Introduction-to-DevOps) by David Tesar, Thiago Almeida
+- Video: [Introduction to DevOps](https://channel9.msdn.com/Series/DevOps-Fundamentals/Introduction-to-DevOps) (DevOps Journey at Microsoft) by David Tesar, Thiago Almeida
 
 # People and Culture
 
@@ -36,6 +36,10 @@ description: Here you can find information and resources about DevOps.
 - [Periodic Table of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools/) by XebiaLabs
 - Video: [Cloud Native Java - Josh Long](https://www.youtube.com/watch?v=5q8B6lYhFvE) - [Slides](http://www.slideshare.net/SpringCentral/cloud-native-java)
 - [AWS Serverless Multi-Tier Architectures](https://d0.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf)
+- Video: [Netflix: A State of Xen Chaos Monkey & Cassandra](https://www.youtube.com/watch?v=Mu01DmxQjWA) by Christos Kalantzis
+  - [Download Slides](https://www.slideshare.net/planetcassandra/netflix-a-state-of-xen-chaos-monkey-cassandra)
+- Video: [Vizceral Failover Simulation](https://www.youtube.com/watch?v=KVbTjlZ0sfE) by Justin Reynolds
+- Video: [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) by Josh Evans
 
 # Case Studies
 

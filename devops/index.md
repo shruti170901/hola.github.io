@@ -8,7 +8,8 @@ description: Here you can find information and resources about DevOps.
 
 - [The Top 11 Things You Need to Know about DevOps](http://images.itrevolution.com/documents/Top_11_DevOps_01_2015.pdf) by Gene Kim
 - [DevOps Guide: Selected Resources to Start Your Journey](https://dl.orangedox.com/devops-guide-v1) by IT Revolution
-- [DevOps 101](https://www.slideshare.net/up1/devops-101-64995386) by Somkiat Puisungnoen
+- Slides: [DevOps 101](https://www.slideshare.net/up1/devops-101-64995386) by Somkiat Puisungnoen
+- Video: [Introduction to DevOps](https://channel9.msdn.com/Series/DevOps-Fundamentals/Introduction-to-DevOps) by David Tesar, Thiago Almeida
 
 # People and Culture
 

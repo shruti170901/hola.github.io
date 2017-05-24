@@ -12,7 +12,6 @@ description: Here you can find useful links related to Test-Driven Development.
 - eCATT
   - [Data-driven testing with ABAP Unit](https://blogs.sap.com/2014/02/25/data-driven-testing-with-abap-unit/)
   - [Creating Test-Data with eCATT](https://blogs.sap.com/2016/11/29/creating-test-data-with-ecatt/)
-  - [Attachment feature in eCATT](https://blogs.sap.com/2014/04/25/attachment-feature-in-ecatt/)
   - [Basics of eCATT (Video Series)](https://blogs.sap.com/2013/07/13/basics-of-ecatt-video-series-part-1-system-data-container/)
   - [Automated Testing of OData Services with eCATT](https://blogs.sap.com/2015/06/09/automated-testing-of-odata-services-with-ecatt/)
 - Test Double

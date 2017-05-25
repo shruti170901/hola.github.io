@@ -26,6 +26,10 @@ description: Here you can find information and resources about SAP ABAP.
   - [New ABAP Doc Features in NW 7.50](https://blogs.sap.com/2015/10/21/new-abap-doc-features-with-netweaver-75/)
 - [Downloads](https://tools.hana.ondemand.com/)
 
+## OData REST API
+- [Consume Odata Service in ABAP CL_HTTP_CLIENT->CREATE_BY_DESTINATION](https://blogs.sap.com/2016/03/16/consume-odata-service-in-abap-clhttpclient-createbydestination/)
+- [Consume Odata Service in ABAP CL_HTTP_CLIENT->CREATE_BY_DESTINATION (HTTP Post Method)](https://blogs.sap.com/2016/06/21/consume-odata-service-in-abap-clhttpclient-createbydestination-http-post-method/)
+
 ## Books
 
 | &nbsp; | &nbsp; |

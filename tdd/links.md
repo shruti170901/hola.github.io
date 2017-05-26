@@ -41,8 +41,5 @@ description: Here you can find useful links related to Test-Driven Development.
 # Gurus
 |  |  |  |
 |:---:|:---:|:---:|
-| ![](img/robert_martin.jpg)<br />[**Robert C. Martin (Uncle Bob)**](http://twitter.com/unclebobmartin) | ![](img/martin_fowler.jpg)<br />[**Martin Fowler**](http://www.martinfowler.com/aboutMe.html)  | ![](img/roy_osherove.jpg)<br />[**Roy Oserove**](http://osherove.com/about/) |
-| ![](img/micheal_feathers.jpg)<br />[**Micheal C. Feather**](https://michaelfeathers.silvrback.com/bio) | ![](img/eric_elliott.jpg)<br />[**Eric Elliott**](https://twitter.com/_ericelliott) | ![](img/jon_reid.jpg)<br />[**Jon Reid**](http://twitter.com/qcoding) |
-| ![](img/harry_percival.jpg)<br />[**Harry J.W. Percival**](obeythetestinggoat@gmail.com) | ![](img/somkiat_puisungnoen.jpg)<br />[**Somkiat Puisungnoen**](https://www.linkedin.com/in/somkiat) |  |
+| This is a test. | This is a test. | This is a test. |
 
-# Test

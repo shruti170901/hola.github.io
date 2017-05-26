@@ -39,13 +39,8 @@ description: Here you can find useful links related to Test-Driven Development.
   - [Continuous Testing](https://www.visualstudio.com/en-us/docs/test/continuous-testing/continuous-testing)
 
 # Gurus
-| | Name | Links |
-| --- |:---:| --- |
-| | ![](img/robert_martin.jpg)<br />[Robert C. Martin (Uncle Bob)](http://twitter.com/unclebobmartin) | [CleanCoder.com](http://blog.cleancoder.com/) |
-| | ![](img/martin_fowler.jpg)<br />[Martin Fowler](http://www.martinfowler.com/aboutMe.html) | [MartinFowler.com](http://www.martinfowler.com/) |
-| | ![](img/roy_osherove.jpg)<br />[Roy Oserove](http://osherove.com/about/) | [Oserove.com](http://osherove.com/)<br />[ArtOfUnitTesting.com](http://artofunittesting.com/) - Ruby, Java, .NET<br />[Osherove Online Training](http://courses.osherove.com/)<br />[Unit Testing and TDD 101](http://courses.osherove.com/courses/the-art-of-unit-testing-tdd-master-class-in-net/lectures/54779) |
-| | ![](img/micheal_feathers.jpg)<br />[Micheal C. Feather](https://michaelfeathers.silvrback.com/bio) | [Blogs](https://michaelfeathers.silvrback.com/) |
-| | ![](img/eric_elliott.jpg)<br />[Eric Elliott](https://twitter.com/_ericelliott) | Book: [Programming JavaScript Applications](https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/)<br />[Stories on Medium](https://medium.com/@_ericelliott)<br />[Learn JavaScript with Eric Elliott](http://ericelliottjs.com/product/lifetime-access-pass/) |
-| | ![](img/jon_reid.jpg)<br />[Jon Reid](http://twitter.com/qcoding) | [QualityCoding.org](http://qualitycoding.org/) - iOS |
-| | ![](img/harry_percival.jpg)<br />[Harry J.W. Percival](obeythetestinggoat@gmail.com) | [ObeyTheTestingGoat.com](http://www.obeythetestinggoat.com/) - Python |
-| | ![](img/somkiat_puisungnoen.jpg)<br />[Somkiat Puisungnoen](https://www.linkedin.com/in/somkiat) | [Blogs in Thai](http://www.somkiat.cc/tag/tdd/)<br />[Facebook Page](https://www.facebook.com/somkiat.cc) |
+|  |  |  |
+|:---:|:---:|:---:|
+| ![](img/robert_martin.jpg)<br />[**Robert C. Martin (Uncle Bob)**](http://twitter.com/unclebobmartin) <br /> [CleanCoder.com](http://blog.cleancoder.com/) | ![](img/martin_fowler.jpg)<br />[**Martin Fowler**](http://www.martinfowler.com/aboutMe.html) <br /> [MartinFowler.com](http://www.martinfowler.com/) | ![](img/roy_osherove.jpg)<br />[**Roy Oserove**](http://osherove.com/about/) <br /> [Oserove.com](http://osherove.com/)<br />[ArtOfUnitTesting.com](http://artofunittesting.com/) - Ruby, Java, .NET<br />[Osherove Online Training](http://courses.osherove.com/)<br />[Unit Testing and TDD 101](http://courses.osherove.com/courses/the-art-of-unit-testing-tdd-master-class-in-net/lectures/54779) |
+| ![](img/micheal_feathers.jpg)<br />[**Micheal C. Feather**](https://michaelfeathers.silvrback.com/bio) <br /> [Blogs](https://michaelfeathers.silvrback.com/) | ![](img/eric_elliott.jpg)<br />[**Eric Elliott**](https://twitter.com/_ericelliott) <br /> Book: [Programming JavaScript Applications](https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/)<br />[Stories on Medium](https://medium.com/@_ericelliott)<br />[Learn JavaScript with Eric Elliott](http://ericelliottjs.com/product/lifetime-access-pass/) | ![](img/jon_reid.jpg)<br />[**Jon Reid**](http://twitter.com/qcoding) <br /> [QualityCoding.org](http://qualitycoding.org/) - iOS |
+| ![](img/harry_percival.jpg)<br />[**Harry J.W. Percival**](obeythetestinggoat@gmail.com) <br /> [ObeyTheTestingGoat.com](http://www.obeythetestinggoat.com/) - Python | ![](img/somkiat_puisungnoen.jpg)<br />[**Somkiat Puisungnoen**](https://www.linkedin.com/in/somkiat) <br /> [Blogs in Thai](http://www.somkiat.cc/tag/tdd/)<br />[Facebook Page](https://www.facebook.com/somkiat.cc) |  |

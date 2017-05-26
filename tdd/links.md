@@ -40,6 +40,7 @@ description: Here you can find useful links related to Test-Driven Development.
 
 # Gurus
 |  |  |  |
-|:---:|:---:|:---:|
+| --- | --- | --- |
+| This is a test. | This is a test. | This is a test. |
 | This is a test. | This is a test. | This is a test. |
 

@@ -43,11 +43,11 @@ Test-driven development (TDD) is a software development process that relies on t
 2. run the test, which should fail because the program lacks that feature
 3. write "just enough" code, the simplest possible, to make the test pass
 4. run the test again to ensure all the tests pass
-5. "refactor" the code until it conforms to the simplicity criteria
+5. "refactor" the code until it conforms to the [simplicity criteria](https://www.agilealliance.org/glossary/rules-of-simplicity/)
 6. repeat, "accumulating" unit tests over time
 
 
-Source: Viktor Farcic. (2013, December 20). *Test Driven Development (TDD): Example Walkthrough*. Retreived from https://goo.gl/CiYhE9
+Adapted from Agile Alliance. *TDD Glossary*. Retreived May 30, 2017 from https://goo.gl/2EcEZz
 
 ## The Three Rules Of TDD
 
@@ -88,6 +88,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_an
 
 ## SAP
 
+- [Test Driven Development: 15 years later](https://goo.gl/JbjDDz) by Department of Computer Science, Aalborg University
 - [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx) by SAP - *June 18, 2016*
 - [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx) by Sarah Lottman, SAP - *Septenber 2016*
 - [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf) by SAP, *July 2012*

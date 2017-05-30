@@ -16,17 +16,38 @@ description: Here you can find information and resources about Test-Driven Devel
 
 # Concept
 
-Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. TDD is a [software development process](https://en.m.wikipedia.org/wiki/Software_development_process) that relies on the repetition of a very short development cycle: requirements are turned into very specific [test cases](https://en.m.wikipedia.org/wiki/Test_case), then the software is improved to pass the new tests, only.
+## Definitions
 
-## The Three Steps of TDD
+> Test-driven Development is a programming practice that instructs developers to write new code only if an automated test has failed, and to eliminate duplication. The goal of TDD is clean code that works.
+
+__*Massol & Husted: JUnit in Action*
+
+> Test Driven Development is the craft of producing automated tests for production code, and using that process to drive design and programming
+> 
+> For every bit of functionality, you first develop a test that specifies and validates what the code will do.
+> 
+> You then produce exactly as much code as necessary to pass the test. Then you refactor (simplify and clarify) both production code and test code
+
+__*Agile Aliance*
+
+Source: Brian Nielsen, Arne Skou. *Test Driven Development*. Retrieved May 30, 2017 from https://goo.gl/lfyX48
+
+## The Steps of TDD
 
 ![Three Steps of TDD](img/three_step_of_tdd.png)  
+Source: Matt Chernosky. (2016, March 14). *How to Write Better Unit Tests For Embedded Software With TDD*. Retrieved from https://goo.gl/4Y6OtZ
 
-1. __RED__: Write a test for the next bit of functionality you want to add.
-2. __GREEN__: Write the functional code until the test passes.
-3. __REFACTOR__: Clean up both new and old codes to makt it well structured and remove duplications.
+Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle. It can be succinctly described by the following set of rules:
 
-_Source: [martinfowler.com](http://martinfowler.com/bliki/TestDrivenDevelopment.html)_
+1. write a "single" unit test describing an aspect of the program
+2. run the test, which should fail because the program lacks that feature
+3. write "just enough" code, the simplest possible, to make the test pass
+4. run the test again to ensure all the tests pass
+5. "refactor" the code until it conforms to the simplicity criteria
+6. repeat, "accumulating" unit tests over time
+
+
+Source: Viktor Farcic. (2013, December 20). *Test Driven Development (TDD): Example Walkthrough*. Retreived from https://goo.gl/CiYhE9
 
 ## The Three Rules Of TDD
 
@@ -40,7 +61,7 @@ But by rule 2, you can't write very much of that unit test. As soon as the unit 
 
 But by rule 3 you can only write the production code that makes the test compile or pass, and no more.
 
-_Source: [butunclebob.com](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)_
+Source: Robert C. Martin (Uncle Bob). *The Three Rules of TDD*. Retrived May 30, 2017 from https://goo.gl/6Y2ir5
 
 ## TDD and ATDD
 
@@ -52,16 +73,16 @@ Test-driven development is related to, but different from [acceptance test–dri
 
 TDD requires test automation. ATDD does not, although automation helps with regression testing. Tests used in TDD can often be derived from ATDD tests, since the code units implement some portion of a requirement. ATDD tests should be readable by the customer. TDD tests do not need to be.
 
-_Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_ATDD)_
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_ATDD)
 
 ## TDD and BDD
 
 ![Given When Then](img/given_when_then.jpg)  
-_Source: [Abhay Kumar - LinkedIn](https://www.linkedin.com/pulse/behavior-driven-development-tools-java-developers-abhay-kumar)_
+Source: [Abhay Kumar - LinkedIn](https://www.linkedin.com/pulse/behavior-driven-development-tools-java-developers-abhay-kumar)
 
 BDD ([behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development)) **combines practices from TDD and from ATDD. It includes the practice of writing tests first, but focuses on tests which describe behavior**, rather than tests which test a unit of implementation. Tools such as Mspec and Specflow provide a syntax which allow non-programmers to define the behaviors which developers can then translate into automated tests.
 
-_Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_BDD)_
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_and_BDD)
 
 # Documents
 
@@ -71,7 +92,7 @@ _Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_a
 - [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx) by Sarah Lottman, SAP - *Septenber 2016*
 - [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf) by SAP, *July 2012*
 - [ABAP Code Refacotring Techniques](https://s3-ap-southeast-1.amazonaws.com/pacroy/abap_code_refactoring_techniques.pdf) by Sukru Ilkel Birakoglu, SAP LABS France - *July 6, 2009*
-
+, 
 ## TOSCA
 
 - [What's New in Tosca 9.3](https://s3-ap-southeast-1.amazonaws.com/pacroy/What%E2%80%99s+New+in+Tosca+9.3.pdf) by Dr. Gerd Weishaar, Tricentis - *2016*

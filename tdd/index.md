@@ -86,9 +86,12 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_an
 
 # Documents
 
+## Recommended Read
+
+- [Test Driven Development: 15 years later](https://goo.gl/VfkjmV) by Petr Jasek, Department of Computer Science, Aalborg University
+
 ## SAP
 
-- [Test Driven Development: 15 years later](https://goo.gl/JbjDDz) by Department of Computer Science, Aalborg University
 - [Agile Software Engineering, OPA5, UI5, Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/Agile+Software+Engineering%2C+OPA5%2C+UI5%2C+Automation.pptx) by SAP - *June 18, 2016*
 - [Automated Testing](https://s3-ap-southeast-1.amazonaws.com/pacroy/Automated+Testing.pptx) by Sarah Lottman, SAP - *Septenber 2016*
 - [SAP Test Automation](https://s3-ap-southeast-1.amazonaws.com/pacroy/SAP+Test+Management.pdf) by SAP, *July 2012*

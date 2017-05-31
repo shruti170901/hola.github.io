@@ -14,6 +14,7 @@ description: Here you can find information and resources about SAP ABAP.
 - [ABAP Language News for Release 7.50](https://blogs.sap.com/2015/11/27/abap-language-news-for-release-750/)
 - [SAP Roadmaps](http://www.sap.com/solution/roadmaps.html)
 - [ABAP Open Source Projects](https://blogs.sap.com/2015/11/27/abap-open-source-projects/)
+- [SAP Contributions to Open Source](https://archive.sap.com/documents/docs/DOC-29056)
 
 ## ADT (ABAP in Eclipse)
 

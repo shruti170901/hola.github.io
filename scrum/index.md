@@ -422,3 +422,108 @@ This chart shows that:
 - Skip estimating tasks entirely!
 - Most teams eventually learn how to break their work into tasks that are roughly a day for one to two people.
 - Burn-down charts can still be used (if you must) – in that case, just count the tasks instead of adding up the hours.
+
+# Part Seven - How we arrange the team room
+
+-  Many of the most interesting and valuable design discussions take place spontaneously in front of the task board.
+- For this reason, we try to arrange this area as an explicit “design corner”.
+
+![](img/design_corner.png)
+
+-  There is no better way to get an overview of the system than to stand in the design corner and glance at both walls
+
+## Seat the team together!
+
+- After eight years of helping companies with Scrum, I’d like to add: **SEAT THE TEAM TOGETHER!**
+-  If there is no space for the team, make space.
+- After just one sprint, the team will agree that it was a good idea to move together
+- “Together” means:
+  - **Audibility**: Anybody in the team can talk to anybody else without shouting or leaving his desk.
+  - **Visibility**: Everybody in the team can see everybody else. Everyone can see the task board.
+  - **Isolation**: There is nobody outside the team close enough to be disturbed. And vice versa.
+-  If you have a distributed team? Well, then you are out of luck
+
+## ~~Keep the product owner at bay~~
+
+- The best teams I’ve seen have the product owner embedded. Teams suffer a lot when the product owner is too far away, and that’s a much bigger problem than being too close.
+- He shouldn’t spend ALL the time with the team. But, generally speaking, the closer the better.
+
+## Keep the managers and coaches at bay
+
+- If you are Scrum coach (and perhaps also a manager), do get involved as closely as possible. But only for a limited period. 
+  - Check up on the team once in a while (not too often) by attending sprint demos and looking at the task board and listening in on morning scrums. 
+  - If you see an improvement area, take the Scrum master aside and coach him. Not in front of the team.
+  - Another good idea is to attend sprint retrospectives, if your team trusts you enough not to let your presence clam them up.
+
+> As for well-functioning Scrum teams, make sure they get everything they need, then stay the hell out of the way (except during sprint demos).
+  
+- Ask “What does this team need in order to manage itself?” rather than “How can I manage this team?”
+- They need things like transparency, clear purpose, a fun and motivating work environment, air cover, and an escalation path for impediments.
+
+# Part Eight - How we do daily scrums
+
+- Daily scrum is really important! It’s the point where most synchronization happens and where the team raises important impediments. 
+- The Scrum Guide recently updated the three questions to counter this:
+  - What did I do yesterday that helped our team meet the sprint goal?
+  - What will I do today to help our team meet the sprint goal?
+  - Do I see any impediments that prevent me or our team from meeting
+the sprint goal?
+- Notice the focus on the sprint goal, the team’s shared high-level purpose!
+- Whatever you do, don’t let daily scrums stay boring. Keep experimenting!
+
+## How we update the task board
+
+- We normally update the task board during the daily scrum.
+  - Sometimes the Scrum master does the Post-it stuff while people talk.
+  - Some teams have a policy that each person should update the task board *before* each meeting. 
+- Many teams spend time updating numbers on sticky notes during the daily scrum. Waste! The purpose of the daily scrum is to get synchronized, so I usually find it best to update the board “in real time” 
+- That way the daily scrum is used to actually *communicate* rather than administrate.
+
+## Dealing with latecomers
+
+- Some teams have a can of coins and bills. When you are late, even if only one minute late, you add a fixed amount to the can. 
+- If you call before the meeting and say you’ll be late, you still have to pay up.
+- The money in the can is used for social events.
+
+              
+- Just make sure the team comes up with it themselves; don’t impose a scheme from above or outside the team. And keep it fun.
+
+## Dealing with “I don’t know what to do today”
+
+- If I am Scrum master I just move on and let the next guy talk, but make note.
+- I go through the task board with the whole team. I invite people to add more Post-its. 
+- Then I go back to those people who didn’t know what to do: “Now that we’ve gone through the task board, do you have any ideas about what you can do today”? Hopefully, they will.
+- If not, I consider if there is any pair-programming opportunity here. That usually works
+- And if that doesn’t work, here’s the next trick.
+
+> ** Scrum master**: OK, who wants to demonstrate the beta-ready release to
+us? (Assuming that was the sprint goal.)  
+> **Team**: (Confused silence.)  
+> **Scrum master**: Aren’t we done?  
+> **Team**: Um... no.  
+> **Scrum master**: Oh darn. Why not? What’s left to do?  
+> **Team**: Well we don’t even have a test server to run it on, and the build script is broken.  
+> **Scrum master**: Aha. (Adds two Post-its to the task wall.) Joe and Lisa, how can you help us today?  
+> **Joe**: Um.... I guess I’ll try to find some test server somewhere.  
+> **Lisa**: And I’ll try to fix that build script.
+
+- If you have achieved your sprint goal in mid-sprint:
+  - Congratulate the team on a job well done
+  - grab one or two of the stories from the “next” section at the bottom right of your task board, and move them to the “not checked out” column to the left. 
+  - Then redo the daily scrum. 
+  - Notify the product owner that you have added some items to the sprint.
+- Or use the time to pay off some technical debt, or do some technical exploration. Keep the product owner in the loop though.
+- But what if the team has not yet achieved the sprint goal and Joe and Lisa still refuse to come up with something useful to do?
+  - **Shame**: “Well, if you have no idea how you can help the team, I suggest you go home, or read a book or something. Or just sit around until someone calls for your help.
+  - **Old school**: Simply assign them a task.
+  - **Peer pressure**: “Feel free to take your time, Joe and Lisa, we’ll all just stand here and take it easy until you come up with something to do that will help us reach the goal.”
+  - **Servitude**: “Well, you can help the team indirectly by being butlers today.
+- If one person frequently forces you to go that far, then you should probably take that person aside and do some serious coaching.
+- If the problem still remains, you need to evaluate whether this person is important to your team or not.
+  - If he *isn’t* too important, try to get him removed from your team.
+  - If he *is* important, then try to pair him up with somebody else who can act as his shepherd. 
+    
+- The “I don’t know what to do today” problem is typical for teams that are new to Scrum, and are used to having other people decide things for them.
+- As they get more experienced with self-organization, the problem disappears. People learn to figure out what to do.
+
+> If you are a Scrum master and you find yourself resorting to the above tricks too often, you should consider taking a step back. Despite your helpful intention, you may be the team’s biggest impediment, stopping them from learning how to self-organize!

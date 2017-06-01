@@ -336,3 +336,89 @@ This raises two questions:
 - Spend a lot of effort getting that right, and the rest will be so much easier. Or vice versa – get the other stuff right and sprint planning is a piece of cake. :o)
 - The sprint planning meeting is successful if everyone exit the meeting with a smile, and wake up the next morning with a smile, and do their first daily scrum with a smile.
 - All kinds of things can go horribly wrong down the line, but at least you can’t blame the sprint plan, :o)
+
+# Part Five - How we communicate sprints
+
+- It is important to keep the whole company informed about what is going on. Otherwise, people will complain or, even worse, make false assumptions about what is going on.
+- We use a “sprint info page” for this.
+
+![](img/sprint_info.png)
+
+- After the sprint planning meeting, the Scrum master creates this page, puts it up on the wiki, and sends a spam to the whole company.
+- In addition, the Scrum master prints out the sprint info page and posts it on the wall outside his team room. So anybody walking by can look at the sprint info page to find out what that team is doing.
+- When the sprint nears the end, the Scrum master reminds everybody
+about the upcoming demo.
+- Given all this, nobody really has an excuse *not* to know what’s going on.
+
+# Part Six - How we do sprint backlogs
+
+- This needs to be done *after* the sprint planning meeting, but *before* the first daily scrum.
+
+## Sprint-backlog format
+
+- What we have found to be the most effective format for the sprint backlog – a wall-based task board! (a.k.a. Scrum boards)
+- For a distributed team, use a tool that provides a Scrum board view, and put it on a big screen at each site. 
+  - At the daily scrum, everyone stands at the wall screen and talks via Skype (or equivalent).
+
+![](img/scrum_board.png)
+
+## How the task board works
+
+![](img/scrum_board_usage.png)
+
+- Simplicity is extremely valuable for these types of things, so I only add additional complications when the cost of not doing so is too great.
+
+### Example 1: After the first daily scrum
+
+![](img/scrum_board_after_first_day.png)
+
+- Sometimes, for larger teams, a task gets stuck in “Checked out” because nobody remembers who was working on it. Labeling each checked-out task with the name of the person who checked it out.
+- Just about all teams use avatars nowadays. Each team member picks their avatar (a South Park figure or something), prints them, and puts them on magnets. Great way to see who is working on what.
+- if each person only has like two magnets, that indirectly limits work in progress and multitasking.
+
+### Example 2: After a few more days
+
+![](img/scrum_board_after_few_days.png)
+
+- Completed Deposit story
+- Migration Tool is partially complete
+- Backoffice Login is started
+- Backoffice User Admin is not started
+- Three unplanned items, useful to remember when you do the sprint retrospective
+
+- Sprint backlog near the end of a sprint does get rather messy, but that’s OK since it is shortlived. Every new sprint, we create a fresh, clean, new sprint backlog.
+
+## How the burn-down chart works
+
+![](img/burndown_chart.png)
+
+This chart shows that:
+- On the first day, the team estimated 70 story points of work left to do. This was the estimated velocity of the whole sprint.
+- On August 16, the team estimates 15 story points of work left to do. The dashed trend line shows that they are approximately on track, i.e. complete everything by the end of the sprint.
+- Now, they increasingly skip burn-down charts entirely, because one glance at the Scrum board gives them the info they need.
+
+## Task-board warning signs
+
+- The Scrum master is responsible for making sure that the team acts upon warning signs such as:
+
+![](img/warning_sign_01.png)  _
+
+![](img/warning_sign_02.png)  _
+
+![](img/warning_sign_03.png)  _
+
+![](img/warning_sign_04.png)  _
+
+## Hey, what about traceability?!
+
+- Take a digital photo of the task board every day. 
+  - I do that sometimes but never find a need to dig up those photos.
+- Once the sprint is done and working code has been delivered and documentation checked in, no one care about the past.
+- Some tools provide that type of data but people basically never use it. 
+- Your code-version-control system will give you most of what you need. Writing the story ID in your commit comment.
+
+## Estimating days vs. hours
+
+- Skip estimating tasks entirely!
+- Most teams eventually learn how to break their work into tasks that are roughly a day for one to two people.
+- Burn-down charts can still be used (if you must) – in that case, just count the tasks instead of adding up the hours.

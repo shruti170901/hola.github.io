@@ -120,3 +120,20 @@ description: Summary from the book by Henrik Kniberg
 
 - 10-minute break each hour
 - Most backlog refinement should be done *before* sprint planning.
+
+## Defining the sprint length
+
+| Short sprint | Long sprint |
+| --- | --- |
+| short feedback cycle <br /> more frequent deliveries <br /> more frequent customer feedback <br /> less time spent running in the wrong direction <br /> learn and improve faster | The team gets more time to build up momentum <br /> they get more room to recover from problems and still make the sprint goal <br /> you get less overhead in terms of sprint planning meetings, demos, etc. |
+| Product owners like | Devlopers like |
+ 
+- *do* experiment with sprint lengths initially. Don’t waste too much time *analyzing*, just select a decent length and give it a shot for a sprint or two, then change length.
+- Most Scrum teams I meet (almost all, in fact) end up doing two-week or three-week sprints.
+ 
+## Defining the sprint goal
+ 
+- It is hard to come up with a sprint goal. But I have found that it really pays to squeeze one out. Better a half-crappy goal than none at all.
+- The important thing is that it should be in business terms, not technical terms. This means in terms that people outside the team can understand.
+- The sprint goal may seem rather silly and contrived during the sprint planning, but it often comes to use in mid-sprint, when people are starting to get confused about what they should be doing.
+- But I find that it’s not important to have a goal at a sprint level; it can be just as fine to have a higher-level goal that covers several sprints, or the next release cycle.

@@ -4,6 +4,27 @@ title: Scrum and XP from the Trenches
 description: Summary from the book by Henrik Kniberg
 ---
 
+![](img/scrum_and_xp_from_the_trenches.png)  
+**Scrum and XP from the Trenches - 2nd Edition***  
+Henrik Kniberg
+
+The book can be downloaded for free from [here](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2).
+
+# Table of Content
+
+- [Part One - Intro](#Part-One---Intro)
+- [Part Two - How we do product backlogs](#Part-Two---How-we-do-product-backlogs)
+- [Part Three - How we prepare for sprint planning](#Part-Three---How-we-prepare-for-sprint-planning)
+- [Part Four - How we do sprint planning](#Part-Four---How-we-do-sprint-planning)
+- [Part Five - How we communicate sprints](#Part-Five---How-we-communicate-sprints)
+- [Part Six - How we do sprint backlogs](#Part-Six---How-we-do-sprint-backlogs)
+- [Part Seven - How we arrange the team room](#Part-Seven---How-we-arrange-the-team-room)
+- [Part Eight - How we do daily scrums](#Part-Eight---How-we-do-daily-scrums)
+- [Part Nine - How we do ~~sprint demos~~ sprint review](#Part-Nine---How-we-do-~~sprint-demos~~-sprint-review)
+- [Part Ten - How we do sprint retrospectives](#Part-Ten---How-we-do-sprint-retrospectives)
+- [Part Eleven - Slack time between sprints](#Part-Eleven---Slack-time-between-sprints)
+- [Part Twelve - How we do release planning and fixed-price contracts](#Part-Twelve---How-we-do-release-planning-and-fixed-price-contracts)
+
 # Forward
 
 ## Nokia Requirements for Iterative Development
@@ -527,3 +548,305 @@ us? (Assuming that was the sprint goal.)
 - As they get more experienced with self-organization, the problem disappears. People learn to figure out what to do.
 
 > If you are a Scrum master and you find yourself resorting to the above tricks too often, you should consider taking a step back. Despite your helpful intention, you may be the team’s biggest impediment, stopping them from learning how to self-organize!
+
+# Part Nine - How we do ~~sprint demos~~ sprint review
+
+- The official term is the “sprint review”. Demo implies a one-way communication, while review implies a two-way communication.
+- Sprint review is all about feedback!
+
+## Why we insist that all sprints end with a demo
+
+- A well-executed sprint demo has a profound effect:
+  - The team gets credit for their accomplishment. They *feel good*.
+  - Other people learn what your team is doing.
+  - The demo attracts vital feedback from stakeholders.
+  - Demos are a social event that is valuable.
+  - Doing a demo forces the team to *actually finish stuff* and release it
+    - Without demos, we kept getting huge piles of 99%-finished stuff. 
+    - With demos, we may get fewer items done, but those items are *really done*.
+- If they don’t have much that really works, the demo will be embarrassing. This hurts. But the next sprint, the team will really try to get stuff *done*!
+- This is extra crucial in a multi-team context. Everyone involved needs to see the integrated product come together on a regular basis.
+- Self-organization only works with transparency and feedback loops, and a well-executed sprint review provides both.
+
+## Checklist for sprint demos
+
+- Present the sprint goal
+- Don’t spend too much time preparing the demo presentation. Focus on actual working code
+- Making the demo faswt-paced rather than beautiful
+- Keep the demo on a business-oriented level. 
+  - Focus on “what did we do” rather than “how did we do it”.
+- If possible, let the audience try the product for themselves.
+- Don’t demonstrate a bunch of minor bug fixes and trivial features. Mention them but don’t demo them.
+
+
+- Some teams do two reviews: 
+  - a short public review, aimed at external stakeholders.
+  - an internal review with more details.
+    - A great way to spread knowledge between teams, and spare stakeholders from techy details they don’t care about.
+    
+## Dealing with indemonstrable stuff
+
+> **Team member**: I’m not going to demonstrate this item, because it can’t be demonstrated. The story is “Improve scalability so system can handle 10,000 simultaneous users”. I can’t bloody well invite 10,000 simultaneous users to the demo can I?  
+> **Scrum master**: Are you done with the item?  
+> **Team member**: Yes, of course.  
+> **Scrum master**: How do you know?  
+> **Team member**: I set the system up in a performance-test environment, started eight load servers, and pestered the system with simultaneous requests.  
+> **Scrum master**: But do you have any indication that the system will handle 10,000 users.  
+> **Team member**: Yes. The test machines are crappy, yet they could handle 50,000 simultaneous requests during my test.  
+> **Scrum master**: How do you know?  
+> **Team member** (frustrated): Well, I have this report! You can see for yourself. It shows how the test was set up and how many requests wee sent!  
+> **Scrum master**: Oh, excellent! Then there’s your “demo”. Just show the report and go through it with the audience. Better than nothing right?.  
+> **Team member**: Oh, is that enough? But it’s ugly. I need to polish it up.  
+> **Scrum master**: OK, but don’t spend too long. It doesn’t have to be pretty, just informative.  
+
+# Part Ten - How we do sprint retrospectives
+
+- The most important thing about retrospectives is to *make sure they happen*.
+- Ironically, the more stressed you are, the more likely you are to want to skip the retrospective.
+- But the more stressed you are, the more badly you need the retrospective!
+
+> "I’m in such a hurry to chop down trees, I don’t have time to stop
+and sharpen my saw!"
+
+- For two-week sprints, time-box the retrospective to one hour. 
+- Do a longer (half-day or full-day) retrospective every couple of months so you can deal with the thornier issues.
+- The likelihood of getting buy-in from the team is very much higher if the idea comes “from the team”.
+- Without retrospectives you will find that the team keeps making the same mistakes over and over again.
+
+## How we organize retrospectives
+
+- we do it something like this:
+  - one to three hours
+  - Participants: the product owner, the whole team, and myself.
+  - a closed room, a cozy sofa corner, the rooftop patio, or some place like that.
+  - don’t do retrospectives in the team room, since people’s attentions will tend to wander.
+  - Somebody is designated as secretary.
+  - The Scrum master shows the sprint backlog and summarizes the sprint.
+  - We do “the rounds”.
+    - what they thought was good
+    - what they think could have been better
+    - what they would like to do differently next sprint.
+  - Look at the estimated vs. actual velocity.
+  - Scrum master tries to summarize concrete suggestions about what we can do better next sprint.
+  
+  ![](img/retrospective.png)
+  
+Three columns:
+- **Good**: We will redo the same again.
+- **Could have done better**: we will do these things differently.
+- **Improvements**: Concrete ideas about how we could improve in the future.
+
+- They used “dot voting” to determine which improvements to focus on during next sprint.
+- Based on this, they selected five process improvements to focus on, and will follow this up during next retrospective.
+
+- There are lots of fancy ways to do retrospectives. You’ll find lots of ideas in the book Agile Retrospectives. 
+- Retromat, a random retrospective generator, is fun, too (www.plans-for-retrospectives.com). :o)
+- I keep coming back to the simple format described above. It works for the majority of cases.
+- Or even simpler, take a 20-minute coffee break with two discussion topics: “What to keep” and “What to change”. A bit shallow, but better than nothing!
+
+## Spreading lessons learned between teams
+
+- If sales manager keeps kidnapping programmers, invite the sales manager to a meeting, learn about their needs, and discuss possible solutions together!
+- One person (in this case, me) attends all sprint retrospectives and acts as the knowledge bridge. Quite informal.
+- An alternative would be to have each Scrum team publish a sprintretrospective report. We have tried that but found that not many people read such reports.
+- Important rules for the “knowledge bridge” person:
+  - He should be a good listener.
+  - If the retrospective is too silent, he should be prepared to ask simple but well-aimed questions that stimulate discussion
+  - Willing to spend time visiting all retrospectives
+  - He should be in some kind of position of authority, so he can act upon improvement suggestions.
+  
+- Trading facilitators is a nice pattern. Like “I’ll facilitate for your team retrospective if you facilitate for mine.”
+- This allows you as Scrum master to fully participate in your team’s retrospective (rather than facilitate).
+
+## To change or not to change
+
+- We’ve found that, in many cases, just identifying a problem clearly is enough for it to solve itself automatically next sprint.
+- Every change you introduce has some kind of cost so, before introducing changes, consider doing nothing at all.
+- “we communicated too little within the team...” is a typical example.
+- If you introduce a new change every time, people may become reluctant to reveal minor problem areas.
+
+## Examples of things that may come up during retrospectives
+
+### “We should have spent more time breaking down stories into sub-items and tasks”
+
+- At the daily scrum, team members find themselves saying “I don’t really know what to do today.”
+- So after each daily scrum, you spend time finding concrete tasks. Usually more effective to do that up front.
+
+**Typical actions**: None.
+
+## “Too many external disturbances”
+
+**Typical actions**:
+
+- Record disturbances better next sprint
+- try to funnel all disturbances to the Scrum master or product owner
+- Ask the team to designate one person as “goalkeeper”. All disturbances are routed to him.
+  - Could be the Scrum master or a rotating position.
+
+- The rotating goalkeeper pattern is extremely common and usually works well. Try it!
+
+## “We overcommitted and only got half of the stuff done”
+
+**Typical actions**: None.
+
+- “sprint commitment” has been renamed “sprint forecast”.
+- The sprint plan is not a commitment, it’s a forecast and a hypothesis.
+- It still kind of sucks to consistently deliver less than forecasted. If that is a problem, start strictly applying yesterday’s weather.
+
+## “Our office environment is too noisy and messy”
+
+**Typical actions**:
+
+- Try to create a better environment, or move the team offsite. Rent a hotel room.
+- Tell the team to reduce the forcast. Hopefully, this will cause the product owner to start pestering upper management about this
+
+# Part Eleven - Slack time between sprints
+
+- In real life, you can’t always sprint. You need to rest between sprints.
+- Slack is superimportant for both productivity and personal well being!
+- Open your calendar and block off half a day per week, write “slack” or “unbookable” or something.
+- After the sprint demo and retrospective, both the team and the product owner will be full of information and ideas to digest. 
+  - If they immediately run off and start planning the next sprint, chances are nobody will have had a chance to digest any information or lessons learned
+- We try to make sure that the sprint retrospective and the subsequent sprint planning meeting don’t occur on the same day.
+
+**Bad**:
+
+![](img/bad_slack_time.png)
+
+**Better**:
+
+![](img/better_slack_time.png)
+
+**Even Better**:
+
+![](img/even_better_slack_time.png)
+
+**Best?**:
+
+![](img/best_slack_time.png)
+
+- "lab days" = days where developers are allowed to do essentially whatever
+they want. ~Google's 20% time policy
+- Currently, we have lab days once per month.
+- The whole company takes the lab day at the same time. Otherwise, people tend to not take it seriously.
+- At Spotify, we ended up doing companywide hack weeks. Twice per year, we do a whole week of do-whateveryou-want, with a demo and party on Friday. Check it out at http://tinyurl.com/spotifyagile
+
+# Part Twelve - How we do release planning and fixed-price contracts
+
+- Sometimes, We need to plan ahead more than one sprint at a time – typically, in conjunction with a fixed-price contract.
+- Typically, release planning for us is an attempt to answer the question “when, at latest, will we be able to deliver version 1.0 of this new system”.
+- I suggest you instead buy Mike Cohn’s book, [*Agile Estimating and Planning*](https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415).
+- Also check out the book [*Lean Startup*](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898), by Eric Ries. 
+- A big problem is that most projects tend to build up to a big-bang release, instead of delivering small increments.
+
+## Define your acceptance thresholds
+
+- The product owner defines a list of *acceptance thresholds*, which is a simple classification of what the importance levels in the product backlog actually mean in terms of the contract.
+
+| Importance | Name |
+| --- | --- |
+| red | banana |
+| red | apple |
+| red | orange |
+| red | guava |
+| red | pear |
+| yellow | raisin |
+| yellow | peanut |
+| yellow | donut |
+| yellow | onion |
+| green | grapefruit |
+| green | papaya |
+| green | blueberry |
+| green | peach |
+
+Red = *must* be included in version 1.0  
+Yellow = *should* be included in version 1.0  
+Green = may be done later  
+
+## ~~Time-estimate~~ Size-estimate the most important items
+
+- In order to do release planning, the product owner needs estimates, at least for all stories that are included in the contract.
+- Just like when sprint planning, this is cooperative effort between the product owner and the team.
+- All that was just a long-winded way of saying:
+  - Let the team do the estimates.
+  - Don’t make them spend too much time.
+  - Make sure they understand that the time estimates are crude estimates,
+not commitments.
+- Usually, the product owner tells the team that the goal of this meeting is to time-estimate the top 20 (or whatever) stories in the product backlog.
+- He goes through each story once, and then lets the team get to work. The product owner stays in the room to answer questions and clarify.
+- This meeting must be strictly time-boxed.
+- The team must make sure that the impact of these meetings on their current sprints is clearly visible to the product owner. Work doesn't come for free.
+
+| Importance | Name | Estimate |
+| --- | --- | --- |
+| red | banana | 12 |
+| red | apple | 9 |
+| red | orange | 20 |
+| red | guava | 8 |
+| red | pear | 20 |
+| yellow | raisin | 12 |
+| yellow | peanut | 10 |
+| yellow | donut | 8 |
+| yellow | onion | 10 |
+| green | grapefruit | 14 |
+| green | papaya | 4 |
+| green | blueberry | |
+| green | peach | _ |
+
+- Call them “size estimates” instead. 
+  - I don’t know how long “banana” will take, but I’m pretty sure it’s a bit longer than “apple” and a lot shorter than “orange
+
+> Better to be roughly right than precisely wrong!
+
+## Estimate velocity
+
+- Ask the team to stare at the list and make an educated guess of how far they can get in one sprint. Count up the points. That will be faster than focus factor, and about as accurate/inaccurate.
+
+## Put it together into a release plan
+
+
+| Importance | Name | Estimate |
+| --- | --- | --- |
+|  | **Sprint 1** |   |
+| red | banana | 12 |
+| red | apple | 9 |
+| red | orange | 20 |
+|  | **Sprint 2** |   |
+| red | guava | 8 |
+| red | pear | 20 |
+| yellow | raisin | 12 |
+|  | **Sprint 3** |   |
+| yellow | peanut | 10 |
+| yellow | donut | 8 |
+| yellow | onion | 10 |
+| green | grapefruit | 14 |
+|  | **Sprint 4** |   |
+| green | papaya | 4 |
+| green | blueberry | |
+| green | peach | _ |
+
+- Each sprint includes as many stories as possible without exceeding the estimated velocity of 45.
+- Now we can see that we’ll probably need three sprints to finish all the “must haves” and “should haves”.
+- We usually add a significant buffer to protect against bad time estimates, unexpected problems, unexpected
+- So in this case, we might agree to set the delivery date to three months in the future, giving us one month “reserve”.
+
+
+- Here’s an alternative approach that works nicely. Estimate velocity as a
+range (30-50 points). Then split the backlog into three lists:
+  - **All**: These stories will all be done, even if our velocity is low (30).  
+  - **Some**: Some of these stories will be done, but not all.  
+  - **None**: None of these stories will be done, even if our velocity is high (50).  
+
+## Adapting the release plan
+
+> Reality will not adapt itself to a plan, so it must be the other way around.
+
+- If the actual velocity was very different from the estimated velocity, we revise the estimated velocity for future sprints and update the release plan.
+- If this puts us into trouble:
+  - The product owner may start negotiating with the customer 
+  - or start checking how he can reduce scope without breaking the contract. 
+  - Or perhaps he and the team come up with some way to increase velocity or increase focus factor by removing some serious impediment
+  
+- Not good news to the customer perhaps, but at least we are being honest
+and giving the customer an early choice.
+- I made a 15-minute video called “Agile Product Ownership in a Nutshell”. Check it out! http://tinyurl.com/ponutshell

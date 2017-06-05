@@ -237,6 +237,10 @@ video {
 table {
   margin-bottom: 1rem;
   min-width: 600px;
+
+  /* Make condensed */
+  padding: .375rem .8rem;
+  font-size: .675rem;
 }
 
   table a {

@@ -20,10 +20,11 @@ The book can be downloaded for free from [here](https://www.infoq.com/minibooks/
 - [Part Six - How we do sprint backlogs](#Part-Six---How-we-do-sprint-backlogs)
 - [Part Seven - How we arrange the team room](#Part-Seven---How-we-arrange-the-team-room)
 - [Part Eight - How we do daily scrums](#Part-Eight---How-we-do-daily-scrums)
-- [Part Nine - How we do ~~sprint demos~~ sprint review](#Part-Nine---How-we-do-~~sprint-demos~~-sprint-review)
+- [Part Nine - How we do ~~sprint demos~~ sprint review](#Part-Nine---How-we-do-sprint-demos-sprint-review)
 - [Part Ten - How we do sprint retrospectives](#Part-Ten---How-we-do-sprint-retrospectives)
 - [Part Eleven - Slack time between sprints](#Part-Eleven---Slack-time-between-sprints)
 - [Part Twelve - How we do release planning and fixed-price contracts](#Part-Twelve---How-we-do-release-planning-and-fixed-price-contracts)
+- [Part Thirteen - How we combine Scrum with XP](#Part-Thirteen---How-we-combine-Scrum-with-XP)
 
 # Forward
 
@@ -40,10 +41,10 @@ The book can be downloaded for free from [here](https://www.infoq.com/minibooks/
 - Scrum is not a methodology, it is a *framework*. This means Scrum is not really going to tell you exactly what to do.
 - This document does not cluiam to represent "the right way" to do Scrum! It only represents one way to do Scrum.
 - What is Scrum?
-  - http://agilemanifesto.org
-  - http://www.mountaingoatsoftware.com/scrum
+  - [http://agilemanifesto.org](http://agilemanifesto.org)
+  - [http://www.mountaingoatsoftware.com/scrum](http://www.mountaingoatsoftware.com/scrum)
   - ~~http://www.xpprogramming.com/xpmag/whatisxp.html~~ ([Web archive](http://web.archive.org/web/20081204043819/http://www.xprogramming.com/xpmag/whatisxp.htm))
-  - http://www.scrumguides.org
+  - [http://www.scrumguides.org](http://www.scrumguides.org)
   
 # Part Two - How we do product backlogs
   
@@ -729,7 +730,7 @@ Three columns:
 they want. ~Google's 20% time policy
 - Currently, we have lab days once per month.
 - The whole company takes the lab day at the same time. Otherwise, people tend to not take it seriously.
-- At Spotify, we ended up doing companywide hack weeks. Twice per year, we do a whole week of do-whateveryou-want, with a demo and party on Friday. Check it out at http://tinyurl.com/spotifyagile
+- At Spotify, we ended up doing companywide hack weeks. Twice per year, we do a whole week of do-whateveryou-want, with a demo and party on Friday. Check it out at [http://tinyurl.com/spotifyagile](http://tinyurl.com/spotifyagile)
 
 # Part Twelve - How we do release planning and fixed-price contracts
 
@@ -849,4 +850,114 @@ range (30-50 points). Then split the backlog into three lists:
   
 - Not good news to the customer perhaps, but at least we are being honest
 and giving the customer an early choice.
-- I made a 15-minute video called “Agile Product Ownership in a Nutshell”. Check it out! http://tinyurl.com/ponutshell
+- I made a 15-minute video called “Agile Product Ownership in a Nutshell”. Check it out! [http://tinyurl.com/ponutshell](http://tinyurl.com/ponutshell)
+
+# Part Thirteen - How we combine Scrum with XP
+
+- Scrum focuses on management and organization practices while XP focuses mostly on actual programming practices. That’s why they work well together.
+- I learned from Jeff Sutherland that the first Scrum actually did all the
+XP practices.
+- Ken Schwaber convinced him to leave the engineering practices out of Scrum, to keep the model simple and help spread Scrum faster.
+  - The downside is that a lot of teams suffer because they lack the technical practices that enable sustainable agile development.
+- Not all our teams have managed to adopt all practices.
+- Some XP practices are directly addressed
+by Scrum and can be seen as overlapping
+
+## Pair programming
+
+Some conclusions so far about pair programming:
+
+- Pair programming does improve code quality.
+- Pair programming does improve team focus.
+- Many developers that are strongly against pair programming actually haven’t tried it, and quickly learn to like it once they do try it.
+- Pair programming is exhausting and should not be done all day.
+- Shifting pairs frequently is good.
+- Pair programming does improve knowledge spread within the group. Surprisingly fast, too.
+- Some people just aren’t comfortable with pair programming.
+- Code review is an OK alternative to pair programming.
+- The “navigator” (the guy not using the keyboard) should have a computer of his own, as well. For browsing documentation when the “driver” (the guy at the keyboard) gets stuck, etc.
+- Don’t force pair programming upon people. Let them experiment with it at their own
+pace.
+
+## Test-driven development (TDD)
+
+- I’ve realized that TDD is a pretty niche technique that very few people have the patience to master. Instead, I teach the techniques and then let teams decide how much of it to do, and when.
+- Some reflections on test-driven development:
+  - TDD is *hard*. It takes a while for a programmer to *get it*.
+  - In many cases, the only way for a programmer to get it is to have him pair-program with somebody else who is good at TDD.
+  - Once a programmer does get it, however, he will usually be severely infected and will never want to work in any other way.
+  - TDD has a profoundly positive effect on system design.
+  - It takes time to get TDD up and running effectively in a new product, but the return on investment is fast.
+- Since TDD is so hard, I don’t try to force it on people, instead I coach these principles:
+  1. Make sure each key feature has at least one end-to-end acceptance test, interacting through the GUI or just behind it.
+  2. Make sure any complex or business-critical code is covered by unit tests.
+  3. This will leave some code uncovered. That’s fine. Make sure it’s a deliberate tradeoff rather than just neglect.
+  4. Write the tests as you go, don’t save them for later.
+- Test coverage usually ends up around 70%, because of the law of diminishing returns.
+
+> In short, test automation is crucial, but TDD is optional.
+
+- In our most sophisticated products (from a TDD perspective), we have automated black-box acceptance tests.
+  - These tests start up the whole system in memory, including databases and webservers, and access the system using only its public interfaces (for example HTTP).
+  
+### TDD on new code
+
+- We do TDD for all new development, even if that means initial project
+setup takes longer The benefits are so great that there really is no excuse not to do TDD.
+
+### TDD on old code
+
+- TDD is hard, but trying to do TDD on a codebase that wasn’t built using TDD from start... that’s *really hard*!
+- A great one about legacy code called Working Effectively with Legacy Code, by Michael Feathers. 
+  - I’ve also written some articles on technical debt, check my blog. [http://blog.crisp.se/tag/technical-debt](http://blog.crisp.se/tag/technical-debt)
+- We spent quite a lot of time trying to automate integration testing in one of our more complex systems, a codebase that had been around for a while and was in a severely messed-up state and completely devoid of tests.
+- **Lesson learned**: If you are stuck with having to do manual regression testing, and want to automate this away, don’t (unless it is really easy).
+  - Instead, build stuff that makes manual regression testing easier. Then consider automating the actual testing.
+  
+## Incremental design
+
+- This means keeping the design simple from start and continuously improving it.
+  - We spend a reasonable amount of time refactoring and improving existing design, and we rarely spend time doing big up-front designs.
+- Continuous design improvement is mostly an automatic side effect of doing TDD.
+
+## Continuous integration
+
+- This is extremely valuable and timesaving.
+- It is the ultimate solution to the good ol’ “hey, but it works on *my* machine” issue.
+- Every time someone checks something in to the version-control system, the continuous-build server will wake up, build everything from scratch on a shared server, and run all the tests.
+- Every night, the continuous-build server will rebuild the product from scratch and publish binaries, documentation, reports, etc. Some products will also be automatically deployed to a test environment.
+- **Continuous delivery**: Every commit is a release candidate, and releasing is a single-click operation.
+- I suggest you read (or at least browse) the book *Continuous Delivery*. 
+  - Setting it up is a lot of work, but definitely worth doing at the beginning of any new product. Pays off almost immediately.
+  
+## Collective code ownership
+
+- Pair programming with frequent rotation of pairs automatically leads to a high level of collective code ownership.
+- Teams with a high level of collective code ownership have proven to be very robust – for example, their sprint doesn’t die just because some key person is sick.
+- Spotify have an “internal open source” model. All code lives in an internal GitHub and people can clone repos and issue pull requests. Very convenient.
+
+## Informative workspace
+
+- All teams have access to whiteboards and empty wall space and make quite good use of this.
+- Coding standard
+  - Most programmers have their own distinct coding style.
+  - In some cases, the difference doesn’t matter; in other cases it can lead to a severely inconsistent system design and hard-to-read code.
+  - Here are some examples from our code standard:
+    - Use the Sun code conventions by default: ~~http://java.sun.com/docs/
+codeconv/html/CodeConvTOC.doc.html~~ [http://www.oracle.com/technetwork/java/codeconvtoc-136057.html](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html)
+    - Never, ever, ever catch exceptions without logging the stack trace or rethrowing. log.debug() is fine, just don’t lose that stack trace.
+    - Use setter-based dependency injection to decouple classes from each other.
+    - Avoid abbreviations.
+    - Methods that return Collections or arrays should not return null.
+  - No need to reinvent the wheel – you can copy this one from my friend Google: ~~http://google-styleguide.googlecode.com~~ [https://github.com/google/styleguide](https://github.com/google/styleguide)
+  
+## Sustainable pace/energized work
+
+- Extended overtime is counterproductive in software development. After some unwilling experimentation on this, I can only agree wholeheartedly!
+- In software development (and any other complex, creative work), there’s very little correlation between hours spent and value delivered.
+
+> What counts is *focused, motivated* hours.
+
+- So don’t force people to work overtime, except in the rare exceptional case where it’s really needed for a short period of time.
+
+> Burning people out is Evil.

@@ -25,6 +25,7 @@ The book can be downloaded for free from [here](https://www.infoq.com/minibooks/
 - [Part Eleven - Slack time between sprints](#Part-Eleven---Slack-time-between-sprints)
 - [Part Twelve - How we do release planning and fixed-price contracts](#Part-Twelve---How-we-do-release-planning-and-fixed-price-contracts)
 - [Part Thirteen - How we combine Scrum with XP](#Part-Thirteen---How-we-combine-Scrum-with-XP)
+- [Part Fourteen - How we do testing](#Part-Fourteen---How-we-do-testing)
 
 # Forward
 
@@ -961,3 +962,156 @@ codeconv/html/CodeConvTOC.doc.html~~ [http://www.oracle.com/technetwork/java/cod
 - So don’t force people to work overtime, except in the rare exceptional case where it’s really needed for a short period of time.
 
 > Burning people out is Evil.
+
+# Part Fourteen - How we do testing
+
+- This is the hardest part.
+- Testing is the part that probably will vary most between different organizations.
+
+## You probably can’t get rid of the acceptance-test phase
+
+- In the ideal Scrum world, a sprint results in a potentially deployable version of your system.
+- Manual testing is important and to some extent is unavoidable. But it should be done by the team in the sprint.
+
+![](img/testing.png)
+
+- When I say “acceptance-test phase” I am referring to the whole period of testing, debugging, and re-releasing until there is a version good enough for production release.
+
+## Minimize the acceptance-test phase
+
+- The acceptance test phase hurts. It feels distinctly un-agile.
+- I’ve seen how really agile companies move fast *and* increase quality by getting rid of the separate acceptance-test phase and merging that work into the sprint.
+- Minimize the amount of time needed for the acceptance test phase. This is done by:
+  - Maximizing the quality of the code delivered by the Scrum team.
+    - Put testers in the Scrum team.
+    - Do less per sprint.
+  - Maximizing the efficiency of the manual test work.
+  
+## Increase quality by putting testers in the Scrum team
+
+- Scrum teams are supposed to be cross-functional!
+- “Cross-functional” doesn’t mean everyone knows everything. It just means that everyone is willing to do more than just their own thing.
+- The tester will guide this work, pair with developers on test automation, and personally do the more complex manual testing.
+
+## The tester is the “sign-off guy”
+
+-  I’m not a big fan of the sign-off guy pattern any more. It introduces a bottleneck and puts too much responsibility in the hands of one person.
+-  But I can see it being useful under some circumstances. Also, if anyone should sign off on the quality, it should be a real user.
+
+- But if you have one, here are some guidelines:
+  - I’ve found that developers often say something is done when it really isn’t. Even if you have a very clear definition of “done”.
+  - How does testers know something is done then? Well, first of all, he should (surprise) *test* it!
+  - Once Mr. T has tested the feature, he should go through the “done” checklist (if you have one) with the developer.
+  - A nice side effect of this is that the team now has a guy who is perfectly suited to organize the sprint demo.
+  
+## What does the tester do when there is nothing to test?
+
+- First of all, he should be *preparing for tests*. That is, writing test specs, preparing a test environment, etc.
+- If the team is doing TDD, the tester should pair-program with developers that are writing test code.
+- A good tester usually comes up with different types of tests than a good developer does, so they complement each other.
+- During the sprint planning meeting, the team tends to focus on *programming tasks*. However, usually, there are lots of *non-programming* tasks that need to be done in the sprint.
+- Examples of non-programming tasks that often need to be done in a
+sprint:
+  - Set up a test environment.
+  - Clarify requirements.
+  - Discuss deployment details with operations.
+  - Write deployment documents (release notes, RFC, or whatever your organization does).
+  - Contact with external resources (GUI designers for example).
+  - Improve build scripts.
+  - Further break down stories into tasks.
+  - Identify key questions from the developers and get them answered.
+  
+- What do we do if the tester becomes a bottleneck? 
+  - We could make everybody in the team into tester’s assistants.
+
+## Increase quality by doing less per sprint
+
+- This goes back to the sprint planning meeting. Simply put, don’t cram too many stories items into the sprint!
+- If you have quality problems, or long acceptance-test cycles, do less per sprint! This will almost automatically lead to higher quality.
+
+> It is almost always cheaper to build less, but build it stable, rather than to build lots of stuff and then have to do panic hot fixes.
+
+## Should acceptance testing be part of the sprint?
+
+- Some of our teams include acceptance testing in the sprint. Most of our teams don't, for two reasons:
+  - A sprint is time-boxed. Acceptance testing is very difficult to timebox.
+  - If you have multiple Scrum teams working on the same product, the manual acceptance testing must be done on the combined result of both team’s work.
+  
+  ![](img/combined_tester.png)
+  
+- Strive to make acceptance testing part of each sprint. It takes a while to get there, but you won’t regret it.
+- Even if you never get there, the act of trying will cause you to make lots of improvements to the way you work.
+
+## Sprint cycles vs. acceptance-test cycles
+
+- I’ve seen real-world teams release to production every day, sometimes even several times per day.
+
+![](img/sprint_cycle.png)
+
+- Just roll up your sleeves, figure out what’s stopping you from getting releaseable code every sprint, and fix the problems one by one.
+- Just take whatever your release cycle is today, and gradually but continuously shorten it.
+
+Here’s a more realistic picture:
+
+![](img/sprint_cycle_2.png)
+
+\* The diagonal red lines in Sprint 2 symbolize chaos.
+
+- Well, the sad thing is that the problem remains even if you have an acceptance-test team. 
+  - The only difference is that most of the bug reports will come from the test team instead of from angry end users.
+  
+![](img/sprint_cycle_3.png)
+
+- We haven’t found any simple solution to this problem.
+- The cost of finding and fixing bugs early, within a sprint, is just so extremely low compared to the cost of finding and fixing bugs afterwards.
+- But the fact remains, even if we can minimize the number of bugs, there will still be bug reports coming after a sprint is complete.
+
+### Approach 1: “Don’t start building new stuff until the old stuff is in production”
+
+- We would have to add a nontime-boxed release period between sprints, where we do only testing and debugging until we can make a production release.
+
+![](img/sprint_approach_1.png)
+
+- Not if your definition of done is “in production”. In that case, you can start the next sprint immediately, because the code from last sprint is already in production.
+- Even if you do manage to release continuously, you still need a way to deal with urgent bugs coming in. Because that will happen sometimes.
+  - And the best way to deal with that is to leave a bit of slack in the sprint.
+  
+### Approach 2: “OK to start building new stuff, but prioritize getting the old stuff into production”
+
+- We expect to be spending some time in the next sprint fixing bugs from the
+last sprint.
+- We make sure sprints are long enough to survive a fair amount of bug fixing from the previous sprint.
+- Gradually, over a period of many months, the amount of time spent fixing bugs from previous sprints decreased.
+
+![](img/sprint_approach_2.png)
+
+- Just use yesterday’s weather. Then your sprint will automatically have built-in slack to handle disruptions and hot fixes.
+
+### Bad approach: “Focus on building new stuff”
+
+-  This in effect means “focus on building new stuff *rather than getting old stuff into production*”.
+- Many managers don’t really understand that, when all the coding is finished, you are usually still far from production release.
+- All they have to do is limit the number of projects or features in progress.
+  - I’ve seen cases where companies become literally seven times faster by doing that.
+  - And better quality as well, because of the shorter feedback loop. Crazy but true.
+  
+## Don’t outrun the slowest link in your chain
+
+- Let’s say acceptance testing is your slowest link.
+  - Let’s say your acceptance-test team can test at most three features per week.
+  - And let’s say your developers can develop six new features per week.
+- It will be tempting for the managers or product owners (or maybe even the team) to schedule development of six new features per week.
+- Don't! Instead, schedule three new features per week and spend the rest of the
+time alleviating the testing bottleneck.
+- We’ve tried all of these solutions (except the last one). The best longterm solutions are: better tools and scripts and test automation.
+- Retrospectives are a good forum for identifying the slowest link in the
+chain.
+
+- This becomes self-adjusting if acceptance testing is included in the sprint. Make your definition of done include acceptance testing, and see.
+
+## Back to reality
+
+- We’ve sometimes managed to do this stuff:
+  - We have testers in all Scrum teams, 
+  - We have a huge acceptance test teams for each product that we release after each sprint, etc., etc.
+- We’ve seen the positive effects of it. But we are still far from an acceptable quality-assurance process, and we still have a lot to learn there.

@@ -237,10 +237,6 @@ video {
 table {
   margin-bottom: 1rem;
   min-width: 600px;
-
-  /* Make condensed */
-  padding: .375rem .8rem;
-  font-size: .675rem;
 }
 
   table a {
@@ -301,7 +297,8 @@ tr {
  * Table Cell
  */
 td {
-  padding: 1.6rem 0.8rem;
+  padding: .375rem .8rem;
+/*  padding: 1.6rem 0.8rem;*/
  }
 
 /*------------------------------------*\

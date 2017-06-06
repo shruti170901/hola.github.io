@@ -26,6 +26,7 @@ The book can be downloaded for free from [here](https://www.infoq.com/minibooks/
 - [Part Twelve - How we do release planning and fixed-price contracts](#Part-Twelve---How-we-do-release-planning-and-fixed-price-contracts)
 - [Part Thirteen - How we combine Scrum with XP](#Part-Thirteen---How-we-combine-Scrum-with-XP)
 - [Part Fourteen - How we do testing](#Part-Fourteen---How-we-do-testing)
+- [Part Fifteen - How we handle multiple Scrum teams](#Part-Fifteen---How-we-handle-multiple-Scrum-teams)
 
 # Forward
 
@@ -485,6 +486,7 @@ This chart shows that:
 
 # Part Eight - How we do daily scrums
 
+- We normally do the meetings standing up, since that reduces the risk of surpassing 15 minutes.
 - Daily scrum is really important! It’s the point where most synchronization happens and where the team raises important impediments. 
 - The Scrum Guide recently updated the three questions to counter this:
   - What did I do yesterday that helped our team meet the sprint goal?
@@ -1115,3 +1117,200 @@ chain.
   - We have testers in all Scrum teams, 
   - We have a huge acceptance test teams for each product that we release after each sprint, etc., etc.
 - We’ve seen the positive effects of it. But we are still far from an acceptable quality-assurance process, and we still have a lot to learn there.
+
+# Part Fifteen - How we handle multiple Scrum teams
+
+- A lot of things get much harder when you have multiple Scrum teams working on the same product. More developers = more complications.
+- Check out *Lean from the Trenches*. That book is very similar to this one in style. It illustrates how a 60-person government project was run using a combination of Scrum and Kanban and XP.
+  - [https://pragprog.com/book/hklean/lean-from-the-trenches](https://pragprog.com/book/hklean/lean-from-the-trenches)
+
+## How many teams to create?
+
+- The biggest single Scrum team we’ve had was around 11 people. It worked, but not too well.
+  - Team members didn’t know what other team members were doing, so there would be confusion. 
+  - It was difficult for the Scrum master to keep everyone aligned towards the goal.
+  - It was difficult to find time to address all obstacles that were reported.
+- I’d say it’s a good idea to split the team if:
+  - The team is experienced and comfortable with Scrum.
+  - There is a logical way of splitting the roadmap into two distinct tracks.
+  - Those two tracks don’t both involve the same source code, 
+  - Otherwise, I’d consider sticking to one team, despite the disadvantage of big teams.
+- Team division is one of the really hard parts of Scrum. Don’t think too deeply or optimize too hard.
+  - The important thing is that the teams are comfortable and don’t stumble over each other too often.
+- One increasingly popular advanced technique is to let teams dynamically reform themselves as needed. I sometimes call this the “super-team” pattern or “dynamic sub-teams”.
+  - It works best when you have 12-16 people that sit close, know each other well, and work on the same product.
+  - Give them a single shared product backlog, and have people form small
+clusters around individual stories
+
+## Optimal team size
+
+- Most books I’ve read claim that the “optimal” team size is somewhere around five to nine people. From what I’ve seen so far I can only agree. Although I’d say three to
+eight people.
+- Let’s say you have two different products, with one three-person team per product, and both are moving too slow. It might be a good idea to combine them into one single six-person team responsible for both products.
+- Let’s say you have a single 12-person Scrum team, because there is no way for two different teams to work on it independently. Put some serious effort into fixing the codebase until you get to a point where you can split the team.
+- If you struggle with finding the right team structure, the real culprit is often the system architecture. 
+  - A good architecture lets teams move fast and independently.
+  - A bad architecture causes teams to stumble over each other and get bogged down by
+dependencies.
+
+### Synchronized sprints – or not?
+
+![](img/sync_sprints.png)
+
+- Having overlapping sprints (with respect to time) was a bad idea, that it would be much better to synchronize the sprints.
+- This is the solution we’ve used ever since, and never regretted it.
+- The advantage of synchronized sprints is:
+  - There is a natural time at which to rearrange teams – between sprints!
+  - All teams could do sprint planning meetings together, which leads to better collaboration.
+  - Less administrative overhead.
+- At Spotify, we used to have synchronized sprints, until we decided to let each team work at its own pace and choose its own sprint length (some do kanban instead of sprints).
+- We do a daily scrum-of-scrums type of sync meeting and a weekly demo of the integrated product, regardless of which rhythm each individual team has.
+
+## Why we introduced a “team lead” role
+
+![](img/team_lead.png)
+
+- Who decides which people should be in which teams?
+- In many companies, these will be quite sensitive issues.
+- I still think the product owner shouldn’t be the one driving team structure, since the job of product owner is hard enough already.
+- We’ve solved this by introducing a “team lead” role. This corresponds to what you might call “scrum-of-scrums master” or “the boss” or “main Scrum master”
+- In most other companies I’ve seen, the line manager is responsible for team structure, and there’s no need for a team-lead role.
+
+> The best managers find a way to help the team self-organize into a suitable structure rather than assign a structure top-down.
+
+## How we allocate people to teams
+
+- We found that the combination of both works best:
+  - Let a designated person do the allocation, for example that I mentioned above.
+  - Let the teams do it themselves somehow.
+- Before the sprint planning meeting, the team lead calls for a team allocation meeting together with the product owner and all Scrum masters.
+- We decide on something and write it
+down as a proposed team allocation, which we bring to the sprint planning
+meeting.
+
+![](img/team_allocation.png)
+
+- As the sprint planning meeting progresses, you are free to suggest any changes.
+- This is a great pattern. Just keep in mind that there’s lots of different ways this can be done – combining it with sprint planning is just one way, and not always the best.
+- Nowadays, I usually run reorganization workshops separately from sprint planning.
+- For large projects, however, it’s useful to do all sprint planning meetings simultaneously in a big room.
+
+## Specialized teams – or not?
+
+- Let’s say your technology consists of three main components:
+
+![](img/specialized_team.png)
+
+- Let’s say you have 15 people working on this product, so you really don’t want to run them as a single Scrum team.
+
+### Approach 1: Component-specialized teams
+
+![](img/specialized_team_1.png)
+
+- Doesn’t work too well, at least not when most stories involve multiple components.
+
+![](img/specialized_team_1_bad.png)
+
+- This means all three teams - the client team, the server team, and the DB team - have to collaborate to get this story done. Not too good.
+- A surprisingly common problem in many companies!
+
+### Approach 2: Cross-component teams
+
+- This type of division strategy will work better. Each team can implement a whole story.
+- This lessened the number of cases of “we can’t complete this item because we are waiting for the server guys to do their part.”
+
+![](img/specialized_team_2.png)
+
+- Reorganizing from component teams to feature teams can be quite disruptive, but the benefits are huge!
+- A good test question for a team is “who is our customer, and can we fulfill their needs without having to block on other teams?” In most cases, a feature team will pass that test.
+- The most common exception is internal-facing teams such as tools and platform teams (e.g. a server-infrastructure team).
+- Larger companies usually end up with a mix of outward-facing feature teams and inward-facing component teams. 
+- There’s no silver bullet though, so just keep experimenting!
+
+## Rearrange teams between sprints – or not?
+
+- In fact, almost every sprint we found ourselves saying something like “this sprint isn’t really a normal sprint because (bla bla bla).
+- There are no normal sprints. Just like there are no normal families or normal people.
+- One of the key aspects of Scrum is “team gel”, i.e. if a team gets to work together over multiple sprints they will usually become *very tight*. They will learn to achieve *group flow* and reach an incredible productivity level.
+- One exception is when you start doing Scrum with a large team for the first time. In this case, it is probably worth experimenting a bit with team subdivision
+
+- Rule of thumb: After a few sprints, your team structure should be fairly stable.
+- That is, for any given team, their membership is unchanged (no people added or removed) for at least a quarter.
+- However, changes that come from within (initiated by team members) are usually less disruptive than team changes imposed from above.
+- Let people focus, encourage team stability, but also allow people to switch teams whenever they see a need.
+
+## Part-time team members
+
+- Having part-time members of a Scrum team is generally not a good idea. It usually totally sucks!
+- Rule of thumb: 
+  - Full time means at least 90% dedicated to this team.
+  - Part time means 50-90%.
+  - Less than 50% means not a team member.
+  
+> Multitasking is a beast that kills productivity, motivation, and quality
+
+## How we do scrum-of-scrums
+
+- Scrum-of-scrums is basically a regular meeting where all Scrum masters gather to talk.
+
+![](img/scrum-of-scrums.png)
+
+- This means we had two levels of scrum-of-scrums. 
+  - We had one productlevel scrum-of-scrums consisting of all teams within Product D, and one corporate-level scrum-of-scrums consisting of all products.
+  
+### Product-level scrum-of-scrums
+
+- At Spotify, we usually do it in the form of “daily sync” between teams that
+are involved in something together. 
+- A short meeting, usually 15 minutes max. The agenda is focused on dependencies rather than status updates.
+- We sometimes use a simple board with stickies to track unresolved cross-team dependencies. 
+- The meeting becomes like a small marketplace for identifying where there is a need for synchronization.
+- The synchronization itself happens separately.
+
+### Corporate-level scrum-of-scrums
+
+- We called this meeting “the pulse”.
+- We’ve ditched the whole concept and replaced it with a weekly all-hands (well, all people involved in development) meeting instead. 15 minutes.
+- The meeting format is:
+  1. News and updates from the chief of development.
+  2. Round robin. One person from each product group.
+  3. Anybody else is free to add any info or ask questions
+- We noticed that the corporate-level scrum-of-scrums was mostly about reporting. We rarely had actual discussions in that group.
+- The setup of scrum-of-scrums is very contextual. There’s definitely no one-size-fits-all.
+- Don’t be a Scrum zombie! Change something! Experiment! Constantly ask each other questions like “Is this meeting really adding value?
+
+> Life is too short for boring meetings.
+
+## Interleaving the daily scrums
+
+- If you have many Scrum teams within a single product. We ask teams to avoid having daily scrums at the same time.
+
+![](img/interleaving_daily.png)
+
+- This is extremely useful for two reasons:
+  - People like the product owner and myself can visit all daily scrums on a single morning.
+  - Teams can visit each other’s daily scrums.
+  - The downside is less freedom for the team – they can’t choose any time they like.
+
+- The primary purpose of the daily scrum is for the team members to synchronize with each other. They should pick a time that works for them.
+- It’s nice to have non-overlapping daily scrums. But don’t impose that on the teams.
+
+## Firefighting teams
+
+- We had a situation where a large product was unable to adopt Scrum because they spent too much time firefighting.
+- We addressed this problem by creating a designated firefighting team, and a designated Scrum team.
+- The firefighting team (we called them “support” actually) had two jobs:
+  - First fires.
+  - Protect the Scrum team from all kinds of disturbances.
+- The firefighting team was placed nearest the door; the Scrum team was placed in the back of the room.
+- Senior developers were placed on both teams.
+- I definitely would have used kanban for the firefighting team.
+- After a couple of months the system was stable enough that we could ditch the firefighting team and create additional Scrum teams instead.
+
+- This is a great pattern, but only as a temporary crisis-management strategy. Normally, you shouldn’t need a separate firefighting team.
+
+> If you isolate the other teams from fires, they won’t learn to prevent new fires!
+
+- Most teams end up having some kind of rotating firefighter role within the team. Simple and effective.
+
+To be continued...

@@ -27,6 +27,10 @@ The book can be downloaded for free from [here](https://www.infoq.com/minibooks/
 - [Part Thirteen - How we combine Scrum with XP](#Part-Thirteen---How-we-combine-Scrum-with-XP)
 - [Part Fourteen - How we do testing](#Part-Fourteen---How-we-do-testing)
 - [Part Fifteen - How we handle multiple Scrum teams](#Part-Fifteen---How-we-handle-multiple-Scrum-teams)
+- [Part Sixteen - How we handle geographically distributed teams](#Part-Sixteen---How-we-handle-geographically-distributed-teams)
+- [Part Seventeen - Scrum-master checklist](#Part-Seventeen---Scrum-master-checklist)
+- [Part Eighteen - Parting words](#Part-Eighteen---Parting-words)
+- [About the author](#About-the-author)
 
 # Forward
 
@@ -1313,4 +1317,158 @@ are involved in something together.
 
 - Most teams end up having some kind of rotating firefighter role within the team. Simple and effective.
 
-To be continued...
+## Splitting the product backlog – or not?
+
+- Let’s say you have one product and two Scrum teams.
+
+### Strategy 1: One product owner, one backlog
+
+- This is our preferred model.
+- The product owner can focus on *what he needs*, and let the teams decide how to split the work up.
+
+![](img/option_1_one_backlog.png)
+
+- The sprint planning meeting takes place at an external conference center.
+- Each Scrum team selects an empty wall section for themselves. Each team then grabs
+stories from the product backlog wall.
+- The product owner and the teams haggle over the index cards, moving them around between teams.
+- After that, the teams work independently, time-estimating and breaking down to tasks.
+- It’s messy and chaotic and exhausting, but also effective and fun and social.
+
+~[](img/option_1_sprint_planning.png)
+
+- This pattern is even built into SAFe (Scaled Agile Framework).
+- Recently at LEGO, we did a two-day planning event with over 130 people! 
+- Sometimes, this planning technique is used as a temporary measure for a half-year or so.
+
+### Strategy 2: One product owner, multiple backlogs
+
+- The product owner maintains multiple product backlogs, one per team.
+- This is basically our fallback plan in case the first approach fails.
+- The weakness is that the product owner is allocating stories to teams, a task that teams probably are better at doing themselves.
+- Typically, the product owner becomes a bottleneck in this case.
+
+![](img/option_2_two_backlog.png)
+
+### Strategy 3: Multiple product owners, one backlog per owner
+
+![](img/option_3_two_product_owner.png)
+
+- If the two product backlogs involve the same codebase, this will probably cause serious conflicts of interest between the two product owners.
+- This is the model used at Spotify. Each of the 70+ teams has their own product owner and product backlog.
+- The upside is that we rarely need big planning meetings.
+- The downside is that we have to put a lot of effort into decoupling the architecture to make this possible.
+
+## Code branching
+
+- Be strict about keeping the mainline (or trunk) in a consistent state. This means that everything should compile and all unit tests should pass.
+- Preferably the continuous-build system should build and autodeploy to a test environment every night.
+- Tag each release – you get that automatically with most systems nowadays.
+- Create new branches only when necessary. 
+  - A good rule of thumb is to branch off a new code line only when you can’t use an existing code line without breaking that code line’s policy.
+  - When in doubt, don’t branch.
+- Use branches primarily to separate different lifecycles.
+  - If you mix short-term fixes with long-term changes on the same code line, you will find it very difficult to release the short-term fixes!
+- Synchronize often. If you are working on a branch, synchronize to mainline whenever you have something that builds.
+
+- I wrote an article about this called “Version Control for Multiple Agile Teams”: [http://www.infoq.com/articles/agile-version-control](http://www.infoq.com/articles/agile-version-control)
+
+## Multi-team retrospectives
+
+- Nowadays, I prefer to do retrospective summaries as part of the actual retrospective.
+  - Each team goes off and does their own retro, and then after an hour or so we all meet again in a big room. Each team summarizes that key outcomes from their r
+  - Each team summarizes that key outcomes from their retro, and lists their most important unresolved impediment
+  - It usually becomes clear that impediment X is our biggest cross-team impediment.
+  - That’s a perfect opportunity to do a mini-workshop around that, or find some volunteers to solve it.
+  - Sometimes, they figure it out within a couple of hours, so it’s useful to do
+the sprint planning meeting the day after.
+
+> work in crossfunctional teams, visualize things, deliver often, involve real users, automate your tests and release process, and experiment a lot. The basic agile principles, really.
+
+# Part Sixteen - How we handle geographically distributed teams
+
+- We use every trick we can come up with to maximize the communication bandwidth including:
+  - The ability to pair-program together
+  - The ability to meet face to face at the daily scrum
+  - The ability to have face-to-face discussions at any time
+  - The ability to meet physically and socialize
+  - The ability to have spontaneous meetings with the whole team
+  - The ability to see the same view of the sprint backlog, sprint burndown, product backlog, and other information radiators
+- Some of the measures we have implemented:
+  - Webcam and headset at each workstation
+  - Remote-enabled conference rooms with webcams
+  - Remote windows – big screens at each location, showing a permanent view of the other locations.
+  - Exchange programs, where people from each location travel and visit each other on a regular basis.
+
+- Nothing can beat the productivity of a small, cross-functional team sitting together in the same room.
+- You’ll never be as productive as a collocated team, but you might get close.
+
+## Offshoring
+
+- There are two main strategies here: separated teams or separated team
+members.
+- We have started with the second strategy, separated team members. There are several reasons for this:
+  - We want the team members to get to know each other well.
+  - We want excellent communication infrastructure between the two locations, and want to give the teams a strong incentive to set this up.
+  - In the beginning, the offshore team is too small to form an effective scrum team on their own.
+  - We want a period of intense knowledge sharing before independent offshore teams will be a feasible option.
+- In the long run, we may well move towards the “separated teams” strategy.
+
+![](img/offshoring.png)
+
+- Even if you initially have a distributed team, keep looking for ways to create separate, distinct teams at each location.
+- One of the main wins is motivation. Having your teammates in the same room is fun! And motivated people build better stuff, faster.
+
+## Team members working from home
+
+- Basically, we leave it to the teams to decide when and how often it is OK to work from home.
+- We do, however, encourage the teams to be physically collocated “most” of the time.
+
+- Check out Double Robotics at [http://doublerobotics.com](http://doublerobotics.com). They sell a product that’s basically an iPad on a stick on wheels.
+
+![](img/double_robotics.png)
+
+- We once tried the concept of having Wednesdays designated as *focus day* i.e. “if you would like to work from home, do it on Wednesdays”.
+- Usually, most of the team stayed home on Wednesdays and they get a lot done, while still collaborating fairly well.
+- On the whole, people working from home has not really been a problem
+for us.
+
+- One of the key ideas in Scrum is the self-organizing team. The team should be given as much responsibility as possible, including things like work hours and workfrom- home policies.
+- Some managers are afraid that teams will misuse this trust, but I rarely see that happen in practice. 
+
+> As long as the team is clearly accountable for the product they deliver, they tend to act responsibly.
+
+# Part Seventeen - Scrum-master checklist
+
+- Check out the Scrum Checklist. [https://www.crisp.se/gratismaterial-och-guider/scrum-checklist](https://www.crisp.se/gratismaterial-och-guider/scrum-checklist)
+- It has become so widely used that you might say it has unofficially become the official Scrum checklist.
+
+- As Scrum master, try to make yourself redundant. Coach the team to do these things without you.
+- If the team relies too much on you, then you are effectively hindering their ability to self-organize.
+- Over time, you should slowly back out from admin stuff and give the team more and more responsibility.
+
+# Part Eighteen - Parting words
+
+- Since Scrum must be tailored specifically to each environment, it is hard to argue constructively over best practices at a general level.
+- I also keep an eye on [scrumdevelopment@yahoogroups.com](mailto:scrumdevelopment@yahoogroups.com)
+- If you liked this book you might want to check in on my blog from
+time to time. [http://blog.crisp.se/henrikkniberg/](http://blog.crisp.se/henrikkniberg/)
+- I’m also pretty active on Twitter from time to time ([@henrikkniberg](https://twitter.com/henrikkniberg)).
+
+# About the author
+
+- Henrik Kniberg ([henrik.kniberg@crisp.se](mailto:henrik.kniberg@crisp.se)) is a consultant at Crisp in Stockholm ([www.crisp.se](www.crisp.se)), specializing in Java and agile software development.
+- Nowadays, I’m more like some kind of management consultant, organizational researcher, or lean/agile coach.
+- I still code from time to time, though, on a hobby basis. It’s just too fun!
+
+| Year | Job |
+| --- | --- |
+| 1998-2003 | As co-founder and CTO of Goyada (1998-2003), experiment with test-driven development and other agile practices as he built and managed a technical platform and a 30-person development team. |
+| late 2005 | Using Scrum and XP as a tool, Henrik helped a swedish company in gaming business out of the crisis by implementing agile and lean principles at all levels in the company. |
+| November 2006 | He started writing the initial notes and it had grown into an 80-page article entitled “Scrum and XP from the Trenches”, which ultimately became this book |
+
+- Henrik grew up in Tokyo and now lives in Stockholm with his wife Sophia and two kids.
+- For more info see [http://www.crisp.se/henrik.kniberg](http://www.crisp.se/henrik.kniberg)
+
+\~~The End\~~  
+Summarized by [Chairat Onyaem (Par)](mailto:pacroy@gmail.com) @ [pacroy.com](www.pacroy.com)

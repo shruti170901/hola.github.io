@@ -25,8 +25,9 @@ description: Here you can find information and resources about DevOps.
 - [DevOps – It’s all about continuous testing !](https://devops.com/devops-continuous-testing/) by Marc Hornbeek
 - [Testing in a DevOps World](https://www.sogeti.nl/sites/default/files/Testing%20in%20a%20DevOps%20World-Wolfgang%20Platz-Tricentis%20-QAD16.pdf) by Wolfgang Platz
 - Video: [Webinar: The impact of DevOps on SAP systems, and how to make it a success](http://www.basistechnologies.com/webinar-the-impact-of-DevOps-on-SAP-systems) by James Roberts
-  - Rev-Trac: http://www.xrsc.com/rev-trac/
-  - Virtual Forge: https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html
+  - Rev-Trac: [http://www.xrsc.com/rev-trac/](http://www.xrsc.com/rev-trac/)
+  - Virtual Forge: [https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html](https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html)
+- Video: [Theory of Constraints (TOC) 3 Bottle Oiled Wheels Demonstration](https://youtu.be/mWh0cSsNmGY)
 
 # Technology and Tools
 

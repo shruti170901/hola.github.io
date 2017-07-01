@@ -16,6 +16,7 @@ description: Here you can find information and resources about DevOps.
 - [How are Lean, Agile, and Devops related to each other?](http://www.agileweboperations.com/lean-agile-devops-related) by Matthias Marschall
 - [List of Lean Games and Simulations](http://www.leansimulations.org/p/huge-list-of-free-lean-games.html)
 - [The Tennis Ball Exercise](http://leaninsider.productivitypress.com/2008/12/tennis-ball-exercise.html) by Michael Sinocchi and Ralph Bernstein
+- [\[RakutenTechConf2015\][E-5]DevOps with Lego and Chocolate simulation game](https://youtu.be/Lup62Wf783Y)
 
 # Process and Practices
 

@@ -6,13 +6,14 @@ description: Here you can find information and resources about Test-Driven Devel
 
 # Contents
 
+- [Useful Links](http://share.xmarks.com/folder/bookmarks/hDBnN0iuyw)
 - [Concept](#concept)
 - [Documents](#documents)
 - [Books](#books)
+- [Gurus](#gurus)
 - [Knowledge](knowledge.html)
 - [Training](training.html)
 - [Exercises](exercises.html)
-- [Useful Links](links.html)
 
 # Concept
 
@@ -127,3 +128,11 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_an
 |![](img/testable_javascript.jpg)<br />[Testable JavaScript: Ensuring Reliable Code](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391) |  ![](img/pattern_of_enterprise_application_architecture.jpg)<br />[Patterns of Enterprise Application Architecture](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420/) |  |
 
 See more books at [Suggested Reading for Professional Scrum Developer](https://www.scrum.org/resources/suggested-reading-professional-scrum-developer)
+
+# Gurus
+
+|  |  |  |
+|:---:|:---:|:---:|
+| ![](img/robert_martin.jpg)<br />[**Robert C. Martin (Uncle Bob)**](http://twitter.com/unclebobmartin) <br /> [CleanCoder.com](http://blog.cleancoder.com/) | ![](img/martin_fowler.jpg)<br />[**Martin Fowler**](http://www.martinfowler.com/aboutMe.html) <br /> [MartinFowler.com](http://www.martinfowler.com/) | ![](img/roy_osherove.jpg)<br />[**Roy Oserove**](http://osherove.com/about/) <br /> [Oserove.com](http://osherove.com/)<br />[ArtOfUnitTesting.com](http://artofunittesting.com/) - Ruby, Java, .NET<br />[Osherove Online Training](http://courses.osherove.com/)<br />[Unit Testing and TDD 101](http://courses.osherove.com/courses/the-art-of-unit-testing-tdd-master-class-in-net/lectures/54779) |
+| ![](img/micheal_feathers.jpg)<br />[**Micheal C. Feather**](https://michaelfeathers.silvrback.com/bio) <br /> [Blogs](https://michaelfeathers.silvrback.com/) | ![](img/eric_elliott.jpg)<br />[**Eric Elliott**](https://twitter.com/_ericelliott) <br /> Book: [Programming JavaScript Applications](https://ericelliottjs.com/product/programming-javascript-applications-paper-ebook-bundle/)<br />[Stories on Medium](https://medium.com/@_ericelliott)<br />[Learn JavaScript with Eric Elliott](http://ericelliottjs.com/product/lifetime-access-pass/) | ![](img/jon_reid.jpg)<br />[**Jon Reid**](http://twitter.com/qcoding) <br /> [QualityCoding.org](http://qualitycoding.org/) - iOS |
+| ![](img/harry_percival.jpg)<br />[**Harry J.W. Percival**](obeythetestinggoat@gmail.com) <br /> [ObeyTheTestingGoat.com](http://www.obeythetestinggoat.com/) - Python | ![](img/somkiat_puisungnoen.jpg)<br />[**Somkiat Puisungnoen**](https://www.linkedin.com/in/somkiat) <br /> [Blogs in Thai](http://www.somkiat.cc/tag/tdd/)<br />[Facebook Page](https://www.facebook.com/somkiat.cc) |  |

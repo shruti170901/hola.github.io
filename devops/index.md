@@ -4,51 +4,11 @@ title: DevOps
 description: Here you can find information and resources about DevOps.
 ---
 
-# General
+# Contents
 
-- [The Top 11 Things You Need to Know about DevOps](http://images.itrevolution.com/documents/Top_11_DevOps_01_2015.pdf) by Gene Kim
-- [DevOps Guide: Selected Resources to Start Your Journey](https://dl.orangedox.com/devops-guide-v1) by IT Revolution
-- Slides: [DevOps 101](https://www.slideshare.net/up1/devops-101-64995386) by Somkiat Puisungnoen
-- Video: [Introduction to DevOps](https://channel9.msdn.com/Series/DevOps-Fundamentals/Introduction-to-DevOps) (DevOps Journey at Microsoft) by David Tesar, Thiago Almeida
-
-# People and Culture
-
-- [How are Lean, Agile, and Devops related to each other?](http://www.agileweboperations.com/lean-agile-devops-related) by Matthias Marschall
-- [List of Lean Games and Simulations](http://www.leansimulations.org/p/huge-list-of-free-lean-games.html)
-- [The Tennis Ball Exercise](http://leaninsider.productivitypress.com/2008/12/tennis-ball-exercise.html) by Michael Sinocchi and Ralph Bernstein
-- [\[RakutenTechConf2015\][E-5]DevOps with Lego and Chocolate simulation game](https://youtu.be/Lup62Wf783Y)
-
-# Process and Practices
-
-- [How and why to create Value Stream Maps for software engineering projects](https://www.ibm.com/developerworks/rational/library/10/howandwhytocreatevaluestreammapsforswengineerprojects/) by Ted Rivera
-- [8 tips for UX at the speed of DevOps](https://www.hpe.com/h30683/us/en/strategic-business-insights/c/it-operations/business-strategy/8-tips-for-ux-at-the-speed-of-devops.html) by Stephanie Overby
-- [A Personal Reinterpretation of the Three Ways](http://itrevolution.com/a-personal-reinterpretation-of-the-three-ways/) by Tim Hunter
-- [DevOps – It’s all about continuous testing !](https://devops.com/devops-continuous-testing/) by Marc Hornbeek
-- [Testing in a DevOps World](https://www.sogeti.nl/sites/default/files/Testing%20in%20a%20DevOps%20World-Wolfgang%20Platz-Tricentis%20-QAD16.pdf) by Wolfgang Platz
-- Video: [Webinar: The impact of DevOps on SAP systems, and how to make it a success](http://www.basistechnologies.com/webinar-the-impact-of-DevOps-on-SAP-systems) by James Roberts
-  - Rev-Trac: [http://www.xrsc.com/rev-trac/](http://www.xrsc.com/rev-trac/)
-  - Virtual Forge: [https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html](https://www.virtualforge.com/en/portfolio/sap-transport-objects-scan-transportprofiler.html)
-- Video: [Theory of Constraints (TOC) 3 Bottle Oiled Wheels Demonstration](https://youtu.be/mWh0cSsNmGY)
-- [What is Extreme Programming?](http://web.archive.org/web/20081204043819/http://www.xprogramming.com/xpmag/whatisxp.htm)
-
-# Technology and Tools
-
-- [A single CI instance for all teams](https://www.thoughtworks.com/radar/techniques/a-single-ci-instance-for-all-teams) by ThoughtWorks.
-- [SAP’s Journey to the Cloud and You—Part I](https://www.asug.com/news/saps-journey-to-the-cloud-and-you-part-i) by Josh Greenbaum
-- [The secret of DevOps success? It's not about the technology](http://www.zdnet.com/article/the-secret-of-devops-success-its-not-about-the-technology/) by Simon Bisson
-- [Periodic Table of DevOps Tools](https://xebialabs.com/periodic-table-of-devops-tools/) by XebiaLabs
-- Video: [Cloud Native Java - Josh Long](https://www.youtube.com/watch?v=5q8B6lYhFvE) - [Slides](http://www.slideshare.net/SpringCentral/cloud-native-java)
-- [AWS Serverless Multi-Tier Architectures](https://d0.awsstatic.com/whitepapers/AWS_Serverless_Multi-Tier_Architectures.pdf)
-- Video: [Netflix: A State of Xen Chaos Monkey & Cassandra](https://www.youtube.com/watch?v=Mu01DmxQjWA) by Christos Kalantzis
-  - [Download Slides](https://www.slideshare.net/planetcassandra/netflix-a-state-of-xen-chaos-monkey-cassandra)
-- Video: [Vizceral Failover Simulation](https://www.youtube.com/watch?v=KVbTjlZ0sfE) by Justin Reynolds
-- Video: [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) by Josh Evans
-
-# Case Studies
-
-- [Disney's DevOps Journey: A DevOps Enterprise Summit Reprise](https://puppet.com/blog/disney-s-devops-journey-a-devops-enterprise-summit-reprise) by Aliza Earnshaw
-- [DevOps Case Study: Amazon AWS](https://insights.sei.cmu.edu/devops/2015/02/devops-case-study-amazon-aws.html) by C. Aaron Cois
-- [10 companies killing it at DevOps](https://techbeacon.com/10-companies-killing-it-devops) by TechBeacon
+- [Useful Links](http://share.xmarks.com/folder/bookmarks/nXDD4nxccp)
+- [Books](#books)
+- [Gene Kim's Email](#gene-kims-email)
 
 # Books
 

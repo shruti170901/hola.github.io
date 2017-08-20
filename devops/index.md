@@ -6,7 +6,7 @@ description: Here you can find information and resources about DevOps.
 
 # Contents
 
-- [Useful Links](http://share.xmarks.com/folder/bookmarks/nXDD4nxccp)
+- [Useful Links](https://trello.com/b/LAvUTyL7/devops)
 - [Books](#books)
 - [Gene Kim's Email](#gene-kims-email)
 

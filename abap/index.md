@@ -6,7 +6,7 @@ description: Here you can find information and resources about SAP ABAP.
 
 # Contents
 
-- [Useful Links](http://share.xmarks.com/folder/bookmarks/bUqpQW46JN)
+- [Useful Links](https://trello.com/b/z47Scsg7/abap)
 - [Books](#books)
 - [Programming Paradigms](#programming-paradigms)
 

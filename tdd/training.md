@@ -1,10 +1,14 @@
 ---
 layout: page
 title: TDD Training
-description: Here you can find training courses provided by third party companies.
+description: Here you can find training courses related unit testing and TDD.
 ---
 
 # SAP
+
+## openSAP
+
+- [Writing Testable Code for ABAP](https://open.sap.com/courses/wtc1)
 
 ## SAP Agile Software Engineering
 

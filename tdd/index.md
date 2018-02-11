@@ -90,6 +90,12 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_an
 ## Recommended Read
 
 - [Test Driven Development: 15 years later](https://goo.gl/VfkjmV) by Petr Jasek, Department of Computer Science, Aalborg University
+- [TDD from book 'Scrum and XP from the Trenches'](http://wiki.chairat.me/scrum/#test-driven-development-tdd) by Henrik Kniberg
+- [Back to the Future 2018 – Reloaded](https://blogs.sap.com/2018/01/27/back-to-the-future-2018-reloaded/) by Paul Hardy
+  - [Introduction – The Wilderness Years](https://blogs.sap.com/2018/01/27/back-to-the-future-2018-reloaded/)
+  - [Part 1 – Inheritance – The Sins of the Fathers](https://blogs.sap.com/2018/01/27/back-to-the-future-2018-reloaded/)
+  - [Part 2 – Unit Testing – Poltergeist: The Legacy](https://blogs.sap.com/2018/02/03/back-to-the-future-reloaded-part-2/#)
+  - Part 3 – Rewriting Programs – On my way from Misery to Happiness Today - *To be published*
 
 ## SAP
 

@@ -23,6 +23,14 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [About ABAP Programming Model for SAP Fiori](https://help.sap.com/doc/cc0c305d2fab47bd808adcad3ca7ee9d/7.5.6/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) - SAP Help
 - [Be prepared for the new ABAP programming model in SAP S/4HANA](https://blogs.sap.com/2017/12/07/be-prepared-for-the-new-abap-programming-model-in-sap-s4hana/) by Carine Tchoutouo Djomo
 
+# Recommended Books
+
+| Title | Author | Publisher |
+|:---:|:---:|:---:|
+| [ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) | Paul Hardy | Rheinwerk Publishing / SAP Press |
+| [Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) | Kerem Koseoglu | Rheinwerk Publishing / SAP Press |
+| [ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) | James Wood, Joseph Rupert | Rheinwerk Publishing / SAP Press |
+
 # Useful Links
 
 ## SAP
@@ -61,14 +69,35 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [ABAP Doc](https://blogs.sap.com/2013/04/29/abap-doc/)
 - [Download SAP Development Tools](https://tools.hana.ondemand.com/#)
 
-## Security
+## API Development
 
-- [Configure Network Edge Authentication](https://blogs.sap.com/2017/11/20/configure-network-edge-authentication/)
+- [Usage of the ABAP REST Library - SAP_BASIS 7.40](https://blogs.sap.com/2013/05/16/usage-of-the-abap-rest-library-sapbasis-740)
+- [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
+- [HTTP Methods - RESTful APIs Verbs – REST API Tutorial](https://restfulapi.net/http-methods/)
 
-# Recommended Books
+## Application Log
 
-| Title | Author | Publisher |
-|:---:|:---:|:---:|
-| [ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) | Paul Hardy | Rheinwerk Publishing / SAP Press |
-| [Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) | Kerem Koseoglu | Rheinwerk Publishing / SAP Press |
-| [ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) | James Wood, Joseph Rupert | Rheinwerk Publishing / SAP Press |
+- [Application Log - Guidelines for Developers (BC-SRV-BAL)](https://help.sap.com/viewer/addb96cd90c945dfb3182865363bbc47/7.31.18/en-US/4e21000f35d44180e10000000a15822b.html)
+- [ABAP-Logger: ABAP Logging as painless as any other language](https://github.com/epeterson320/ABAP-Logger)
+- [abap-log: Logging library for ABAP](https://github.com/flaiker/abap-log)
+
+## Static Code Check
+
+- [Useful tips regarding ABAP code inspector that you may not know](https://blogs.sap.com/2015/06/15/useful-tips-regarding-abap-code-inspector-that-you-may-not-know/)
+- [abapOpenChecks – Open source checks SAP Code Inspector / ATC | SAP Blogs](https://blogs.sap.com/2015/03/08/abapopenchecks-open-source-checks-sap-code-inspector-atc/)
+
+## Best Practices
+
+- [DSAG Best Practice Guideline for ABAP Development now available in English | SAP Blogs](https://blogs.sap.com/2014/02/18/dsag-best-practice-guideline-for-abap-development-now-available-in-english/)
+
+## Test Automation
+
+- [How to use SAP GUI Scripting inside Python Programming Language | SAP Blogs](https://blogs.sap.com/2017/09/19/how-to-use-sap-gui-scripting-inside-python-programming-language/)
+- [SAP Test Automation - Robot Framework and SAP united!](https://sap-test-automation.github.io/website/)
+- [SAP/PyRFC: PyRFC - The Python RFC Connector](https://github.com/SAP/PyRFC)
+- [eCATT: The Extended Computer Aided Test Tool](https://archive.sap.com/documents/docs/DOC-8235)
+
+## Continuous Integration
+
+- [ABAP Continuous Integration with Jenkins | SAP Blogs](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
+- [ABAP Continuous Integration with Eclipse | SAP Blogs](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)

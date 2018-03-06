@@ -6,14 +6,19 @@ description: Here you can find information and resources about Test-Driven Devel
 
 # Contents
 
-- [Useful Links](https://trello.com/b/7SwXtDRQ/test-driven-development)
+## This Page
+
 - [Concept](#concept)
 - [Documents](#documents)
 - [Books](#books)
 - [Gurus](#gurus)
+
+## Other Pages
+
 - [Knowledge](knowledge.html)
 - [Training](training.html)
 - [Exercises](exercises.html)
+- [Useful Links](https://trello.com/b/7SwXtDRQ/test-driven-development)
 
 # Concept
 

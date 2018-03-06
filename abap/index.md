@@ -85,20 +85,20 @@ description: ABAP is a high-level programming language for SAP Application Serve
 ## Static Code Check
 
 - [Useful tips regarding ABAP code inspector that you may not know](https://blogs.sap.com/2015/06/15/useful-tips-regarding-abap-code-inspector-that-you-may-not-know/)
-- [abapOpenChecks – Open source checks SAP Code Inspector / ATC | SAP Blogs](https://blogs.sap.com/2015/03/08/abapopenchecks-open-source-checks-sap-code-inspector-atc/)
+- [abapOpenChecks – Open source checks SAP Code Inspector / ATC](https://blogs.sap.com/2015/03/08/abapopenchecks-open-source-checks-sap-code-inspector-atc/)
 
 ## Best Practices
 
-- [DSAG Best Practice Guideline for ABAP Development now available in English | SAP Blogs](https://blogs.sap.com/2014/02/18/dsag-best-practice-guideline-for-abap-development-now-available-in-english/)
+- [DSAG Best Practice Guideline for ABAP Development now available in English](https://blogs.sap.com/2014/02/18/dsag-best-practice-guideline-for-abap-development-now-available-in-english/)
 
 ## Test Automation
 
-- [How to use SAP GUI Scripting inside Python Programming Language | SAP Blogs](https://blogs.sap.com/2017/09/19/how-to-use-sap-gui-scripting-inside-python-programming-language/)
+- [How to use SAP GUI Scripting inside Python Programming Language](https://blogs.sap.com/2017/09/19/how-to-use-sap-gui-scripting-inside-python-programming-language/)
 - [SAP Test Automation - Robot Framework and SAP united!](https://sap-test-automation.github.io/website/)
 - [SAP/PyRFC: PyRFC - The Python RFC Connector](https://github.com/SAP/PyRFC)
 - [eCATT: The Extended Computer Aided Test Tool](https://archive.sap.com/documents/docs/DOC-8235)
 
 ## Continuous Integration
 
-- [ABAP Continuous Integration with Jenkins | SAP Blogs](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
-- [ABAP Continuous Integration with Eclipse | SAP Blogs](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)
+- [ABAP Continuous Integration with Jenkins](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
+- [ABAP Continuous Integration with Eclipse](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)

@@ -95,7 +95,7 @@ Source: [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development#TDD_an
   - [Introduction – The Wilderness Years](https://blogs.sap.com/2018/01/27/back-to-the-future-2018-reloaded/)
   - [Part 1 – Inheritance – The Sins of the Fathers](https://blogs.sap.com/2018/01/27/back-to-the-future-2018-reloaded/)
   - [Part 2 – Unit Testing – Poltergeist: The Legacy](https://blogs.sap.com/2018/02/03/back-to-the-future-reloaded-part-2/#)
-  - Part 3 – Rewriting Programs – On my way from Misery to Happiness Today - *To be published*
+  - [Back to the Future Reloaded – Part 3 – Rewriting Programs](https://blogs.sap.com/2018/02/15/back-to-the-future-reloaded-part-3-rewriting-programs/)
 
 ## SAP
 

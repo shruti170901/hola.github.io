@@ -30,6 +30,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 | [ABAP to the Future](https://www.sap-press.com/abap-to-the-future_4161/) | Paul Hardy | Rheinwerk Publishing / SAP Press |
 | [Design Patterns in ABAP Objects](https://www.sap-press.com/design-patterns-in-abap-objects_4277/) | Kerem Koseoglu | Rheinwerk Publishing / SAP Press |
 | [ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) | James Wood, Joseph Rupert | Rheinwerk Publishing / SAP Press |
+| [Official ABAP Programming Guidelines](https://www.sap-press.com/official-abap-programming-guidelines_2093/) | Horst Keller, Wolf Hagen Thümmel | Rheinwerk Publishing / SAP Press |
 
 # Useful Links
 

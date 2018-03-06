@@ -44,6 +44,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [Reminder: ABAP Built-in Functions](https://blogs.sap.com/2015/11/30/reminder-abap-built-in-functions/)
 - [Generic ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_generic.htm)
 - [Predefined ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_complete.htm)
+- [ABAP String Template - Embedded Expressions](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abapcompute_string_format_options.htm)
 
 ## New ABAP Syntax
 
@@ -75,6 +76,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [Usage of the ABAP REST Library - SAP_BASIS 7.40](https://blogs.sap.com/2013/05/16/usage-of-the-abap-rest-library-sapbasis-740)
 - [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
 - [HTTP Methods - RESTful APIs Verbs – REST API Tutorial](https://restfulapi.net/http-methods/)
+- [ABAP and Swagger/OpenAPI](https://blogs.sap.com/2018/02/03/abap-and-swaggeropenapi/)
 
 ## Application Log
 
@@ -102,3 +104,8 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 - [ABAP Continuous Integration with Jenkins](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
 - [ABAP Continuous Integration with Eclipse](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)
+
+## Object-oriented Programming
+
+- [A General Purpose ABAP Multiton Class](https://blogs.sap.com/2018/02/19/a-general-purpose-abap-multiton-class/)
+- [Using interfaces to standardize your ABAP OO Development](https://blogs.sap.com/2018/03/04/using-interfaces-to-standardize-your-abap-oo-development/)

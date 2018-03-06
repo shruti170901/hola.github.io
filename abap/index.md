@@ -25,21 +25,43 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 # Useful Links
 
-| SAP | Reference | New Syntax |
-| --- | --- | --- |
-| [ABAP Development Community](https://www.sap.com/community/topic/abap.html) | [Reminder: ABAP Built-in Functions](https://blogs.sap.com/2015/11/30/reminder-abap-built-in-functions/) | [ABAP Language News for Release 7.40](https://blogs.sap.com/2013/07/22/abap-news-for-release-740/) |
-| [SAP Product and Solution Road Maps](https://www.sap.com/products/roadmaps.html) | [Generic ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_generic.htm) | [ABAP Language News for Release 7.50](https://blogs.sap.com/2015/11/27/abap-language-news-for-release-750/) |
-| | [Predefined ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_complete.htm) | [ABAP News for Release 7.51](https://blogs.sap.com/2016/11/04/abap-news-for-release-7.51/) | 
-| | | [SAP NetWeaver AS for ABAP 7.52 – Available now!](https://blogs.sap.com/2017/09/14/sap-netweaver-as-for-abap-7.52-available-now/) |
+## SAP
 
-| Open Source | ABAP in Eclipse | New Features |
-| --- | --- | --- |
-| [abapGit – so easy](https://blogs.sap.com/2017/06/21/abapgit-so-easy/) | [Get Started with the ABAP Development Tools for SAP NetWeaver](https://blogs.sap.com/2012/06/19/get-started-with-the-abap-development-tools-for-sap-netweaver/) | [Out Now: ADT Version 2.51 for the brand new AS ABAP 7.50](https://blogs.sap.com/2015/10/22/out-now-adt-version-251-for-the-brand-new-as-abap-750/) |
-| [SAPlink – Thankyou](https://blogs.sap.com/2017/06/22/saplink-thankyou/) | [ABAP in Eclipse - YouTube](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7) | [Now Available on the ABAP Update Site: ADT Version 2.68](https://blogs.sap.com/2016/10/19/now-available-abap-update-site-adt-version-2.68/) |
-| [ABAP Open Source projects](https://blogs.sap.com/2015/11/27/abap-open-source-projects/) | [ADT Feature Availability Matrix for AS ABAP Releases](https://blogs.sap.com/2013/06/05/adt-feature-availability-matrix-for-as-abap-releases/) | [New ABAP Doc Features with NetWeaver 7.5](https://blogs.sap.com/2015/10/21/new-abap-doc-features-with-netweaver-75/) |
-| [SAP Contributions to Open Source](https://archive.sap.com/documents/docs/DOC-29056) | [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/) | [Software Development Kit for the ABAP Development Tools](https://blogs.sap.com/2013/04/30/software-development-kit-for-the-abap-development-tools/) |
-| [Getting started – Open sourcing ABAP code](https://blogs.sap.com/2017/11/19/getting-started-open-sourcing-abap-code/) | [ABAP Doc](https://blogs.sap.com/2013/04/29/abap-doc/) | |
-| [dotabap](http://dotabap.org/) | [Download SAP Development Tools](https://tools.hana.ondemand.com/#) | |
+- [ABAP Development Community](https://www.sap.com/community/topic/abap.html)
+- [SAP Product and Solution Road Maps](https://www.sap.com/products/roadmaps.html)
+
+## ABAP Language Reference
+
+- [Reminder: ABAP Built-in Functions](https://blogs.sap.com/2015/11/30/reminder-abap-built-in-functions/)
+- [Generic ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_generic.htm)
+- [Predefined ABAP Types](https://help.sap.com/doc/abapdocu_751_index_htm/7.51/en-US/abenbuilt_in_types_complete.htm)
+
+## New ABAP Syntax
+
+- [ABAP Language News for Release 7.40](https://blogs.sap.com/2013/07/22/abap-news-for-release-740/)
+- [ABAP Language News for Release 7.50](https://blogs.sap.com/2015/11/27/abap-language-news-for-release-750/)
+- [ABAP News for Release 7.51](https://blogs.sap.com/2016/11/04/abap-news-for-release-7.51/)
+- [SAP NetWeaver AS for ABAP 7.52 – Available now!](https://blogs.sap.com/2017/09/14/sap-netweaver-as-for-abap-7.52-available-now/)
+
+## Open Source
+
+- [abapGit – so easy](https://blogs.sap.com/2017/06/21/abapgit-so-easy/)
+- [SAPlink – Thankyou](https://blogs.sap.com/2017/06/22/saplink-thankyou/)
+- [ABAP Open Source projects](https://blogs.sap.com/2015/11/27/abap-open-source-projects/)
+- [SAP Contributions to Open Source](https://archive.sap.com/documents/docs/DOC-29056)
+- [Getting started – Open sourcing ABAP code](https://blogs.sap.com/2017/11/19/getting-started-open-sourcing-abap-code/)
+- [dotabap](http://dotabap.org/)
+
+## ABAP in Eclipse
+
+- [Get Started with the ABAP Development Tools for SAP NetWeaver](https://blogs.sap.com/2012/06/19/get-started-with-the-abap-development-tools-for-sap-netweaver/)
+- [ABAP in Eclipse - YouTube](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7)
+- [ADT Feature Availability Matrix for AS ABAP Releases](https://blogs.sap.com/2013/06/05/adt-feature-availability-matrix-for-as-abap-releases/)
+- [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
+- [ABAP Doc](https://blogs.sap.com/2013/04/29/abap-doc/)
+- [Download SAP Development Tools](https://tools.hana.ondemand.com/#)
+
+## Security
 
 - [Configure Network Edge Authentication](https://blogs.sap.com/2017/11/20/configure-network-edge-authentication/)
 

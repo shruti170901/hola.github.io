@@ -13,9 +13,3 @@ derscription: Welcome to my Wiki! Please select section from the list below.
 ## Book Summary
 
 - [Scrum and XP from the Trenches](scrum) (Scrum)
-
-## Bookmarks
-
-- [DevOps](http://share.xmarks.com/folder/bookmarks/nXDD4nxccp)
-- [TDD](http://share.xmarks.com/folder/bookmarks/hDBnN0iuyw)
-- [SAP ABAP](http://share.xmarks.com/folder/bookmarks/bUqpQW46JN)

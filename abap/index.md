@@ -22,6 +22,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 - [About ABAP Programming Model for SAP Fiori](https://help.sap.com/doc/cc0c305d2fab47bd808adcad3ca7ee9d/7.5.6/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) - SAP Help
 - [Be prepared for the new ABAP programming model in SAP S/4HANA](https://blogs.sap.com/2017/12/07/be-prepared-for-the-new-abap-programming-model-in-sap-s4hana/) by Carine Tchoutouo Djomo
+- [ABAP Programming Model for SAP Fiori – a Tutorial](https://blogs.sap.com/2018/02/18/abap-programming-model-for-sap-fiori-a-tutorial/)
 
 # Recommended Books
 
@@ -70,6 +71,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
 - [ABAP Doc](https://blogs.sap.com/2013/04/29/abap-doc/)
 - [Download SAP Development Tools](https://tools.hana.ondemand.com/#)
+- [ABAP in Eclipse – External Debugger Setting](https://blogs.sap.com/2018/01/25/abap-in-eclipse-external-debugger-setting/)
 
 ## API Development
 
@@ -105,7 +107,15 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [ABAP Continuous Integration with Jenkins](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
 - [ABAP Continuous Integration with Eclipse](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)
 
+## Continuous Delivery
+
+- [Switch “ON” and “OFF” your newly developed capabilities using the Feature Flags service](https://blogs.sap.com/2018/01/18/switch-on-and-off-your-newly-developed-capabilities-using-the-feature-flag-service/) (SAP Cloud Platform)
+
 ## Object-oriented Programming
 
 - [A General Purpose ABAP Multiton Class](https://blogs.sap.com/2018/02/19/a-general-purpose-abap-multiton-class/)
 - [Using interfaces to standardize your ABAP OO Development](https://blogs.sap.com/2018/03/04/using-interfaces-to-standardize-your-abap-oo-development/)
+
+## Unit Testing
+
+- [Working with ABAP Unit Tests](https://blogs.sap.com/2018/02/02/working-with-abap-unit-tests/)

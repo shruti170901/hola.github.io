@@ -6,9 +6,10 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 # Contents
 
-- [What's New](#whats_new)
-- [Useful Links](#useful_links)
-- [Interesting Books](#interesting_books)
+- [What's New](#whats-new)
+- [Recommended Books](#recommended-books)
+- [Interesting Videos](#interesting-videos)
+- [Useful Links](#useful-links)
 
 # What's New
 
@@ -23,6 +24,12 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [About ABAP Programming Model for SAP Fiori](https://help.sap.com/doc/cc0c305d2fab47bd808adcad3ca7ee9d/7.5.6/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) - SAP Help
 - [Be prepared for the new ABAP programming model in SAP S/4HANA](https://blogs.sap.com/2017/12/07/be-prepared-for-the-new-abap-programming-model-in-sap-s4hana/) by Carine Tchoutouo Djomo
 - [ABAP Programming Model for SAP Fiori – a Tutorial](https://blogs.sap.com/2018/02/18/abap-programming-model-for-sap-fiori-a-tutorial/)
+
+# Interesting Videos
+
+- [ABAP in Eclipse - YouTube](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7)
+- [ABAP OO Refresher for AgileSE Course - YouTube](https://www.youtube.com/playlist?list=PLQeClR5qhUI_Af02G63SbblYs3A1phw6T)
+- [Combinatorial Test Design](https://www.youtube.com/playlist?list=PLQeClR5qhUI_jkEnQV3LQOoY73SbySWyA)
 
 # Recommended Books
 
@@ -66,7 +73,6 @@ description: ABAP is a high-level programming language for SAP Application Serve
 ## ABAP in Eclipse
 
 - [Get Started with the ABAP Development Tools for SAP NetWeaver](https://blogs.sap.com/2012/06/19/get-started-with-the-abap-development-tools-for-sap-netweaver/)
-- [ABAP in Eclipse - YouTube](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7)
 - [ADT Feature Availability Matrix for AS ABAP Releases](https://blogs.sap.com/2013/06/05/adt-feature-availability-matrix-for-as-abap-releases/)
 - [Useful Keyboard Shortcuts for ABAP in Eclipse](https://blogs.sap.com/2013/11/21/useful-keyboard-shortcuts-for-abap-in-eclipse/)
 - [ABAP Doc](https://blogs.sap.com/2013/04/29/abap-doc/)

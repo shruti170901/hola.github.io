@@ -8,13 +8,33 @@ description: My Kubenetes learning notes and references
 
 ## First App
 
+![](img/first_app.png)
+
 Clone this repo: [https://github.com/wardviaene/kubernetes-course](https://github.com/wardviaene/kubernetes-course)
 
-1) Create pod
+1) Create pod from YAML file
 
 ```
 $ kubectl create -f first-app/helloworld.yml
 pod "nodehelloworld.example.com" created
+```
+
+### YAML File
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodehelloworld.example.com
+  labels:
+    app: helloworld
+spec:
+  containers:
+  - name: k8s-demo
+    image: wardviaene/k8s-demo
+    ports:
+    - name: nodejs-port
+      containerPort: 3000
 ```
 
 2) See pod status
@@ -96,3 +116,34 @@ Events:                   <none>
 ```
 
 8) Test accessing app at `http://localhost:31543/`
+
+## Useful Commands
+
+### Run a shell in a pod
+
+```
+$ kubectl run -i --tty busybox --image=busybox --restart=Never -- sh
+If you don't see a command prompt, try pressing enter.
+/ # 
+```
+
+###  Execute command on a pod
+
+```
+$ kubectl exec nodehelloworld.example.com -- whoami
+root
+```
+
+### Add label to a pod
+
+```
+$ kubectl label pods nodehelloworld.example.com mylabel=awesome
+pod "nodehelloworld.example.com" labeled
+```
+
+### Attach to a pod
+
+```
+kubectl attach nodehelloworld.example.com -i
+If you don't see a command prompt, try pressing enter.
+```

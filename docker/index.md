@@ -96,8 +96,6 @@ Create a MySQL container
 
 | Command | Description |
 |---|---|
-| `docker con| Command | Description |
-|---|---|
 | `docker container run -d --name webserver -p 8080:80 httpd` | Create a new HTTPd (Apache) container |
 | `docker container run -d --name proxy -p 80:80 nginx` | Create a new NGINX container |
 | `docker container inspect mysql` | See information on how the container mysql started in JSON format |
@@ -214,15 +212,15 @@ Try to select image with more pulls and stars
 
 ## Image Tagging and Pushing 
 
-- Image can be uniquely referred by <user>/<image>:<tag>
-- <user> is omitted for official images
+- Image can be uniquely referred by `<user>/<image>:<tag>`
+- `<user>` is omitted for official images
 - Tag is a label to image ID. One image ID can have many tags
 
 | Command | Description |
 |---|---|
 | `docker image tag nginx pacroy/nginx` | Create a new tag |
 | `docker image push pacroy/nginx` | Upload tag to Docker Hub
-cat .docker/config.json | See local Docker config |
+| `cat .docker/config.json` | See local Docker config |
 | `docker image tag pacroy/nginx pacroy/nginx:testing` | Create another tag |
 | `docker image push pacroy/nginx:testing` | Upload tag which layers already exist |
 

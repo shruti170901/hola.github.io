@@ -4,6 +4,19 @@ title: Kubernetes
 description: My Kubenetes learning notes and references
 ---
 
+<!-- TOC -->
+
+- [Basics](#basics)
+  - [First App](#first-app)
+    - [YAML File](#yaml-file)
+  - [Useful Commands](#useful-commands)
+    - [Attach to a pod (to see logs)](#attach-to-a-pod-to-see-logs)
+    - [Execute command on a pod](#execute-command-on-a-pod)
+    - [Run a shell in a pod](#run-a-shell-in-a-pod)
+    - [Delete a pod](#delete-a-pod)
+
+<!-- /TOC -->
+
 # Basics
 
 ## First App

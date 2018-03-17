@@ -185,7 +185,7 @@ Because containers are always moving, come and go, all the times. Should not rel
 
 ![](img/image.jpg)
 
-[￼Docker Hub](https://hub.docker.com/)
+Visit [￼Docker Hub](https://hub.docker.com/)
 
 Try to select image with more pulls and stars
 
@@ -196,8 +196,8 @@ Try to select image with more pulls and stars
 | `docker image ls` | See all downloaded images |
 
 ## Official Images
-- https://hub.docker.com/explore/ 
-- https://github.com/docker-library/official-images/tree/master/library 
+- [https://hub.docker.com/explore/](https://hub.docker.com/explore/)
+- [https://github.com/docker-library/official-images/tree/master/library](https://github.com/docker-library/official-images/tree/master/library)
 
 ## Image Layer
 

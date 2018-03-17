@@ -43,7 +43,7 @@ description: My Docker learning notes and references
 
 ## New Management Command Line
 
-```cmd
+```
 docker <command> <sub-command> (options)
 ```
 
@@ -83,7 +83,7 @@ docker <command> <sub-command> (options)
 
 ## Manage Multiple Containers
 
-```cmd
+```
 docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql
 ```
 
@@ -103,7 +103,7 @@ Create a MySQL container
 
 # Shell Inside Containers
 
-```cmd
+```
 docker container run -it --name proxy nginx bash
 ```
 
@@ -112,7 +112,7 @@ Create a new NGINX container named proxy and run bash command right after and ke
 
 ## Ubuntu Container
 
-```cmd
+```
 docker container run -it --name ubuntu ubuntu
 ```
 

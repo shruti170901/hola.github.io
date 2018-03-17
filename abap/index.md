@@ -9,7 +9,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [What's New](#whats-new)
 - [Recommended Books](#recommended-books)
 - [Interesting Videos](#interesting-videos)
-- [Useful Links](#useful-links)
+- [Useful Links](#useful-links-for-abap-and-beyond)
 
 # What's New
 
@@ -27,8 +27,8 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 # Interesting Videos
 
-- [ABAP in Eclipse - YouTube](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7)
-- [ABAP OO Refresher for AgileSE Course - YouTube](https://www.youtube.com/playlist?list=PLQeClR5qhUI_Af02G63SbblYs3A1phw6T)
+- [ABAP in Eclipse](https://www.youtube.com/playlist?list=PLM6Ee3lDb6FgYc8PhQbfD90Z4jA17j3V7)
+- [ABAP OO Refresher for AgileSE Course](https://www.youtube.com/playlist?list=PLQeClR5qhUI_Af02G63SbblYs3A1phw6T)
 - [Combinatorial Test Design](https://www.youtube.com/playlist?list=PLQeClR5qhUI_jkEnQV3LQOoY73SbySWyA)
 
 # Recommended Books
@@ -40,9 +40,9 @@ description: ABAP is a high-level programming language for SAP Application Serve
 | [ABAP Unit: Writing and Executing Unit Tests](https://www.sap-press.com/abap-unit-writing-and-executing-unit-tests_4298/) | James Wood, Joseph Rupert | Rheinwerk Publishing / SAP Press |
 | [Official ABAP Programming Guidelines](https://www.sap-press.com/official-abap-programming-guidelines_2093/) | Horst Keller, Wolf Hagen Thümmel | Rheinwerk Publishing / SAP Press |
 
-# Useful Links
+# Useful Links for ABAP and Beyond
 
-## SAP
+## SAP in General
 
 - [ABAP Development Community](https://www.sap.com/community/topic/abap.html)
 - [SAP Product and Solution Road Maps](https://www.sap.com/products/roadmaps.html)
@@ -85,6 +85,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [HTTP Status Codes](http://www.restapitutorial.com/httpstatuscodes.html)
 - [HTTP Methods - RESTful APIs Verbs – REST API Tutorial](https://restfulapi.net/http-methods/)
 - [ABAP and Swagger/OpenAPI](https://blogs.sap.com/2018/02/03/abap-and-swaggeropenapi/)
+- [Consuming JSON from external sources](https://blogs.sap.com/2018/03/16/consuming-json-from-external-sources/)
 
 ## Application Log
 
@@ -92,7 +93,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [ABAP-Logger: ABAP Logging as painless as any other language](https://github.com/epeterson320/ABAP-Logger)
 - [abap-log: Logging library for ABAP](https://github.com/flaiker/abap-log)
 
-## Static Code Check
+## Static Code Inspector (SCI)
 
 - [Useful tips regarding ABAP code inspector that you may not know](https://blogs.sap.com/2015/06/15/useful-tips-regarding-abap-code-inspector-that-you-may-not-know/)
 - [abapOpenChecks – Open source checks SAP Code Inspector / ATC](https://blogs.sap.com/2015/03/08/abapopenchecks-open-source-checks-sap-code-inspector-atc/)
@@ -113,9 +114,11 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [ABAP Continuous Integration with Jenkins](https://blogs.sap.com/2017/09/01/abap-continuous-integration-with-jenkins/)
 - [ABAP Continuous Integration with Eclipse](https://blogs.sap.com/2017/09/10/abap-continuous-integration-with-eclipse/)
 
-## Continuous Delivery
+## SAP Cloud Platform
 
-- [Switch “ON” and “OFF” your newly developed capabilities using the Feature Flags service](https://blogs.sap.com/2018/01/18/switch-on-and-off-your-newly-developed-capabilities-using-the-feature-flag-service/) (SAP Cloud Platform)
+- [Switch “ON” and “OFF” your newly developed capabilities using the Feature Flags service](https://blogs.sap.com/2018/01/18/switch-on-and-off-your-newly-developed-capabilities-using-the-feature-flag-service/)
+- [Spring Boot Applications in SAP Cloud Platform: Thoughts on Migration to Reactive Model](https://blogs.sap.com/2018/03/13/spring-boot-applications-in-sap-cloud-platform-thoughts-on-migration-to-reactive-model/)
+- [How to Guide – Easy group/role mapping between SCP and AD-FS](https://blogs.sap.com/2018/03/09/how-to-guide-easy-grouprole-mapping-between-scp-and-ad-fs/)
 
 ## Object-oriented Programming
 
@@ -125,3 +128,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 ## Unit Testing
 
 - [Working with ABAP Unit Tests](https://blogs.sap.com/2018/02/02/working-with-abap-unit-tests/)
+
+## Microservices Architecture
+
+- [Microservice Integration Patterns](https://blogs.sap.com/2018/03/07/microservice-integration-patterns/)

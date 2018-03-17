@@ -119,31 +119,50 @@ Events:                   <none>
 
 ## Useful Commands
 
-### Run a shell in a pod
+### Attach to a pod (to see logs)
 
 ```
-$ kubectl run -i --tty busybox --image=busybox --restart=Never -- sh
+kubectl attach nodehelloworld.example.com -i
 If you don't see a command prompt, try pressing enter.
-/ # 
 ```
 
 ###  Execute command on a pod
 
 ```
-$ kubectl exec nodehelloworld.example.com -- whoami
-root
+$ kubectl exec nodehelloworld.example.com -- ls /app
+Dockerfile
+docker-compose.yml
+index-db.js
+index.js
+misc
+node_modules
+package.json
 ```
 
-### Add label to a pod
+### Run a shell in a pod
+
+You can connect to another pod using *Endpoints* inspected by `kubectl describe service`.
 
 ```
-$ kubectl label pods nodehelloworld.example.com mylabel=awesome
-pod "nodehelloworld.example.com" labeled
-```
-
-### Attach to a pod
-
-```
-kubectl attach nodehelloworld.example.com -i
+$ kubectl run -i --tty busybox --image=busybox --restart=Never -- sh
 If you don't see a command prompt, try pressing enter.
+/ # telnet 10.1.0.5 3000
+GET /
+
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+ETag: W/"c-7Qdih1MuhjZehB6Sv8UNjA"
+Date: Sat, 17 Mar 2018 15:37:54 GMT
+Connection: close
+
+Hello World!Connection closed by foreign host
+```
+
+### Delete a pod
+
+```
+$ kubectl delete pod busybox
+pod "busybox" deleted
 ```

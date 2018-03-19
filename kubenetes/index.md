@@ -179,3 +179,8 @@ Hello World!Connection closed by foreign host
 $ kubectl delete pod busybox
 pod "busybox" deleted
 ```
+
+# Load Balancer
+
+![](img/load_balancer.jpg)
+

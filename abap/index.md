@@ -173,6 +173,7 @@ ABAP app goes web-based with OData and Hana.
 ## Unit Testing
 
 - [Working with ABAP Unit Tests](https://blogs.sap.com/2018/02/02/working-with-abap-unit-tests/)
+- [ABAP Test Double Framework – An Introduction](https://blogs.sap.com/2015/01/05/abap-test-double-framework-an-introduction/)
 
 ## Microservices Architecture
 

@@ -6,20 +6,63 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 # Contents
 
+<!-- TOC -->
+
+- [Contents](#contents)
 - [What's New](#whats-new)
-- [Recommended Books](#recommended-books)
+  - [Write Testable Code for ABAP](#write-testable-code-for-abap)
+  - [ABAP in the Cloud](#abap-in-the-cloud)
+  - [New ABAP Programming Model](#new-abap-programming-model)
 - [Interesting Videos](#interesting-videos)
-- [Useful Links](#useful-links-for-abap-and-beyond)
+- [Recommended Books](#recommended-books)
+- [Useful Links for ABAP and Beyond](#useful-links-for-abap-and-beyond)
+  - [SAP in General](#sap-in-general)
+  - [ABAP Language Reference](#abap-language-reference)
+  - [New ABAP Syntax](#new-abap-syntax)
+  - [Open Source](#open-source)
+  - [ABAP in Eclipse](#abap-in-eclipse)
+  - [API Development](#api-development)
+  - [Application Log](#application-log)
+  - [Static Code Inspector (SCI)](#static-code-inspector-sci)
+  - [Best Practices](#best-practices)
+  - [Test Automation](#test-automation)
+  - [Continuous Integration](#continuous-integration)
+  - [SAP Cloud Platform](#sap-cloud-platform)
+  - [Object-oriented Programming](#object-oriented-programming)
+  - [Unit Testing](#unit-testing)
+  - [Microservices Architecture](#microservices-architecture)
+  - [Debugging](#debugging)
+
+<!-- /TOC -->
 
 # What's New
 
+## Write Testable Code for ABAP
+
+This openSAP course creates ripples in SAP community!
+
+![](img/wtc1.png)
+
+- [ABAPosaurus Takes openSAP Course](https://blogs.sap.com/2018/03/19/abaposaurus-takes-opensap-course/)
+- [Why OpenSAP started ABAP Unit Test course now – My 2 Cents](https://blogs.sap.com/2018/03/19/why-opensap-started-abap-unit-test-course-now-my-2-cents/)
+- [ABAP Unit Test for Odata Services](https://blogs.sap.com/2018/03/20/abap-unit-test-for-odata-services/)
+- [Writing Testable Code for abap2xlsx](https://blogs.sap.com/2018/03/21/writing-testable-code-for-abap2xlsx/)
+
 ## ABAP in the Cloud
+
+The SAP community is looking forward to see ABAP in the cloud platform and its benefits.
+
+![](img/abap_751.jpg)
 
 - [ABAP and the Cloud - Introducing ABAP 7.52 and ABAP in SAP Cloud Platform](https://www.sap.com/documents/2018/01/ac383ce1-ee7c-0010-82c7-eda71af511fa.html) by Karl Kessler - SAP Insider
 - [Overview of ABAP in SAP Cloud Platform](https://blogs.sap.com/2017/09/26/overview-of-abap-in-sap-cloud-platform/) by Florian Wahl
   - [ABAP in SAP Cloud Platform – Frequently Asked Questions](https://blogs.sap.com/2017/09/26/abap-in-sap-cloud-platform-frequently-asked-questions/) by by Florian Wahl
 
 ## New ABAP Programming Model
+
+ABAP app goes web-based with OData and Hana.
+
+![](img/new_model.png)
 
 - [About ABAP Programming Model for SAP Fiori](https://help.sap.com/doc/cc0c305d2fab47bd808adcad3ca7ee9d/7.5.6/en-US/3b77569ca8ee4226bdab4fcebd6f6ea6.html) - SAP Help
 - [Be prepared for the new ABAP programming model in SAP S/4HANA](https://blogs.sap.com/2017/12/07/be-prepared-for-the-new-abap-programming-model-in-sap-s4hana/) by Carine Tchoutouo Djomo
@@ -58,7 +101,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 
 - [ABAP Language News for Release 7.40](https://blogs.sap.com/2013/07/22/abap-news-for-release-740/)
 - [ABAP Language News for Release 7.50](https://blogs.sap.com/2015/11/27/abap-language-news-for-release-750/)
-- [ABAP News for Release 7.51](https://blogs.sap.com/2016/11/04/abap-news-for-release-7.51/)
+- [SAP NetWeaver AS for ABAP 7.51 Innovation Package – Available Now!](https://blogs.sap.com/2016/10/17/sap-netweaver-abap-7.51-innovation-package-available-now/)
 - [SAP NetWeaver AS for ABAP 7.52 – Available now!](https://blogs.sap.com/2017/09/14/sap-netweaver-as-for-abap-7.52-available-now/)
 
 ## Open Source
@@ -69,6 +112,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [SAP Contributions to Open Source](https://archive.sap.com/documents/docs/DOC-29056)
 - [Getting started – Open sourcing ABAP code](https://blogs.sap.com/2017/11/19/getting-started-open-sourcing-abap-code/)
 - [dotabap](http://dotabap.org/)
+- [abap2xlsx – Generate your professional Excel spreadsheet from ABAP](https://blogs.sap.com/2010/07/12/abap2xlsx-generate-your-professional-excel-spreadsheet-from-abap/)
 
 ## ABAP in Eclipse
 
@@ -108,6 +152,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 - [SAP Test Automation - Robot Framework and SAP united!](https://sap-test-automation.github.io/website/)
 - [SAP/PyRFC: PyRFC - The Python RFC Connector](https://github.com/SAP/PyRFC)
 - [eCATT: The Extended Computer Aided Test Tool](https://archive.sap.com/documents/docs/DOC-8235)
+- [How eCATT Executes the Commands TCD and SAPGUI](https://blogs.sap.com/2018/03/10/how-ecatt-executes-the-commands-tcd-and-sapgui/)
 
 ## Continuous Integration
 
@@ -132,3 +177,7 @@ description: ABAP is a high-level programming language for SAP Application Serve
 ## Microservices Architecture
 
 - [Microservice Integration Patterns](https://blogs.sap.com/2018/03/07/microservice-integration-patterns/)
+
+## Debugging
+
+- [ABAP Debugger Scripting: Basics](https://blogs.sap.com/2010/12/14/abap-debugger-scripting-basics/)

@@ -1,17 +1,11 @@
 ---
 layout: page
 title: 
-derscription: Welcome to my Wiki! Please select section from the list below.
+derscription: 
 ---
 
-## Main Topics
-
-- [Test-Driven Development](tdd) (TDD)
-- [SAP ABAP](abap) (ABAP)
-- [DevOps](devops)
-- [Docker](docker)
-- [Kubernetes](kubenetes)
-
-## Book Summary
+## Sections
 
 - [Scrum and XP from the Trenches](scrum) (Scrum)
+
+##  Please visit my official wiki at [wiki.chairat.me](https://wiki.chairat.me/home)

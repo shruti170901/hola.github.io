@@ -4,6 +4,18 @@ layout: default
 
 # How to Enable SSL on NetWeaver Application Server
 
+## 1. Install Client Certificates
+
+1) Open website you want to connect to e.g. [github.com](https://github.com/) with your browser
+
+2) [Export all client certificates in the chain with your browser](export-certs-with-browser)
+
+3) Go to transaction `STRUST`
+
+4) Double click node `SSL Client (Anonymous)`
+
+
+
 - `SSF02` SSF Test Program
 - `SMICF` ICM Monitor `Goto -> Trace File -> Display End`
 - `RZ10` Edit Profiles

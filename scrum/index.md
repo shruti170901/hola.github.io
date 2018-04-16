@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: Scrum and XP from the Trenches
 description: Summary from the book by Henrik Kniberg
 ---
 
 ![](img/scrum_and_xp_from_the_trenches.png)  
-**Scrum and XP from the Trenches - 2nd Edition***  
+**Scrum and XP from the Trenches - 2nd Edition** 
 Henrik Kniberg
 
 The book can be downloaded for free from [here](https://www.infoq.com/minibooks/scrum-xp-from-the-trenches-2).

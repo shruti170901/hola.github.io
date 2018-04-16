@@ -1,4 +1,4 @@
-/_site/
-/.sass-cache/
-/css/unity.css
-/css/extra.css
+_site
+.sass-cache
+Gemfile.lock
+*.gem

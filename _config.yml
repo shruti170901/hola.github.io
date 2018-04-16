@@ -1,19 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Chairat.me Wiki
-email: pacroy@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is my wiki site built with Jekyll. Visit chairat.me for my blogs.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wiki.chairat.me" # the base hostname & protocol for your site
-twitter_username: pacroy
-github_username:  pacroy
-
-# Build settings
-markdown: kramdown
+title: Wiki.chairat.me
+description: 
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
+github: 
+  is_project_page: true
+  repository_url: https://github.com/pacroy/pacroy.github.io
+  repository_name: Wiki.chairat.me
+  owner_url: https://github.com/pacroy/
+  owner_name: Chairat (Par)

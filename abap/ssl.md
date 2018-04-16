@@ -34,7 +34,7 @@ For a SAP Solution Manager System 7.[012], please use the following value for ss
 ```
 *Source: [SAP Note 510007](https://launchpad.support.sap.com/#/notes/510007)*
 
-References
+## References
 
 - [SAP Note 510007](https://launchpad.support.sap.com/#/notes/510007)
 - [TLS 1.2 Support in SAP - SCN](https://archive.sap.com/discussions/thread/3751351)

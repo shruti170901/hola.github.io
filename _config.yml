@@ -3,6 +3,7 @@ description:
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+blog_url: http://chairat.me
 github: 
   is_project_page: true
   repository_url: https://github.com/pacroy/pacroy.github.io

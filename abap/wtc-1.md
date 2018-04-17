@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Writing Testable Code for ABAP | openSAP](https://open.sap.com/courses/wtc1)
+[Writing Testable Code for ABAP - openSAP](https://open.sap.com/courses/wtc1)
 
 # Tests vs. Testable Codes
 

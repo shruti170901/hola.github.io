@@ -67,3 +67,13 @@ No content
 ![Object Factory Class](/uploads/abap/object-factory-class.png "Object Factory Class")
 
 ![Secure Injection](/uploads/abap/secure-injection.png "Secure Injection")
+
+# Week 6 - Working with Legacy Code, Tools and Summary
+
+## Legacy Code
+
+![](/uploads/abap/testability_for_existing_codes.png)
+
+![](/uploads/abap/copy_code_to_class.png)
+
+![](/uploads/abap/replace_report_with_class.png)

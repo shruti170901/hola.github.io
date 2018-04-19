@@ -77,3 +77,23 @@ No content
 ![](/uploads/abap/copy_code_to_class.png)
 
 ![](/uploads/abap/replace_report_with_class.png)
+
+## Continuous Integration
+
+![](/uploads/abap/continuous_integration.png)
+
+## What to Focus on When Writing New Code
+
+![](/uploads/abap/constructor_collaborator.png)
+
+![](/uploads/abap/avoid_global_state.png)
+
+![](/uploads/abap/solid_principles.png)
+
+http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
+
+Michael Feathers
+
+> The relationship between testability and good design ([Article](www.drdobbs.com/testing/the-relationship-between-testability-and/240167101), [Video](https://www.youtube.com/watch?v=4cVZvoFGJTU))
+
+![](/uploads/abap/law_of_demeter.png)

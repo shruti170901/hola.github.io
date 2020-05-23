@@ -1,12 +1,12 @@
 title: hola.github.io
-description: Visit my latest wiki at wiki.chairat.me
+description: Visit me on github @shruti170901
 show_downloads: false
 google_analytics: UA-89685926-4
 theme: jekyll-theme-cayman
-blog_url: http://chairat.me
+blog_url: false
 github: 
   is_project_page: true
-  repository_url: https://github.com/pacroy/pacroy.github.io
-  repository_name: Wiki.chairat.me
-  owner_url: https://github.com/pacroy/
-  owner_name: Chairat (Par)
+  repository_url: https://github.com/shruti170901/hola.github.io
+  repository_name: hola.github.io
+  owner_url: https://github.com/shruti170901/
+  owner_name: Shruti Shreyasi
